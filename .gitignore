@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Production environment
+.env
+.env.local
+.env.production
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js cache
+.cache/
+
+# IDE specific files
+*.vscode/
+.idea/
+
+# Static exports
+out/
+
+# Debugging logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
