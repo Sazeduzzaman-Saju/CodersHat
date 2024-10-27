@@ -11,157 +11,8 @@ export default function Page() {
                     <div className="blog-area inner-blog-1 section-padding inner-font-1">
                         <div className="container">
                             <div className="row">
-                                <div className="col-md-6 col-lg-8">
-                                    <div className="lg-mr-15">
-                                        <div className="row">
-                                            <div className="col-lg-6">
-                                                <div className="single-blog blog-md">
-                                                    <div className="blog-img">
-                                                        <Link href="/single-1"><img src="/assets/img/blog/blog5.png" alt="" /></Link>
-                                                    </div>
-                                                    <ul className="blog-tags">
-                                                        <li><Link href="#">Lifestyle</Link></li>
-                                                    </ul>
-                                                    <h3>
-                                                        <Link href="/single-1">Leadership Burnout: What causes it and how to avoid
-                                                            it</Link>
-                                                    </h3>
-                                                    <p>
-                                                        In the past 90 days, the world has a serious escalation in
-                                                        cyberattacks.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6">
-                                                <div className="single-blog blog-md">
-                                                    <div className="blog-img">
-                                                        <Link href="/single-1"><img src="/assets/img/blog/blog6.png" alt="" /></Link>
-                                                    </div>
-                                                    <ul className="blog-tags">
-                                                        <li><Link href="#">Lifestyle</Link></li>
-                                                    </ul>
-                                                    <h3>
-                                                        <Link href="/single-1">Best Practices for Employee Recognition Programs</Link>
-                                                    </h3>
-                                                    <p>
-                                                        In the past 90 days, the world has a serious escalation in
-                                                        cyberattacks.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6">
-                                                <div className="single-blog blog-md">
-                                                    <div className="blog-img">
-                                                        <Link href="/single-1"><img src="/assets/img/blog/blog7.png" alt="" /></Link>
-                                                    </div>
-                                                    <ul className="blog-tags">
-                                                        <li><Link href="#">Lifestyle</Link></li>
-                                                    </ul>
-                                                    <h3>
-                                                        <Link href="/single-1">Business opportunities are like buses, there's always
-                                                            one coming.</Link>
-                                                    </h3>
-                                                    <p>
-                                                        In the past 90 days, the world has a serious escalation in
-                                                        cyberattacks.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6">
-                                                <div className="single-blog blog-md">
-                                                    <div className="blog-img">
-                                                        <Link href="/single-1"><img src="/assets/img/blog/blog8.png" alt="" /></Link>
-                                                    </div>
-                                                    <ul className="blog-tags">
-                                                        <li><Link href="#">Lifestyle</Link></li>
-                                                    </ul>
-                                                    <h3>
-                                                        <Link href="/single-1">Leadership Burnout: What causes it and how to avoid
-                                                            it</Link>
-                                                    </h3>
-                                                    <p>
-                                                        In the past 90 days, the world has a serious escalation in
-                                                        cyberattacks.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6">
-                                                <div className="single-blog blog-md">
-                                                    <div className="blog-img">
-                                                        <Link href="/single-1"><img src="/assets/img/blog/blog9.png" alt="" /></Link>
-                                                    </div>
-                                                    <ul className="blog-tags">
-                                                        <li><Link href="#">Lifestyle</Link></li>
-                                                    </ul>
-                                                    <h3>
-                                                        <Link href="/single-1">Business opportunities are like buses, there's always
-                                                            one coming.</Link>
-                                                    </h3>
-                                                    <p>
-                                                        In the past 90 days, the world has a serious escalation in
-                                                        cyberattacks.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6">
-                                                <div className="single-blog blog-md">
-                                                    <div className="blog-img">
-                                                        <Link href="/single-1"><img src="/assets/img/blog/blog3.png" alt="" /></Link>
-                                                    </div>
-                                                    <ul className="blog-tags">
-                                                        <li><Link href="#">Lifestyle</Link></li>
-                                                    </ul>
-                                                    <h3>
-                                                        <Link href="/single-1">Leadership Burnout: What causes it and how to avoid
-                                                            it</Link>
-                                                    </h3>
-                                                    <p>
-                                                        In the past 90 days, the world has a serious escalation in
-                                                        cyberattacks.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6">
-                                                <div className="single-blog blog-md">
-                                                    <div className="blog-img">
-                                                        <Link href="/single-1"><img src="/assets/img/blog/blog2.png" alt="" /></Link>
-                                                    </div>
-                                                    <ul className="blog-tags">
-                                                        <li><Link href="#">Lifestyle</Link></li>
-                                                    </ul>
-                                                    <h3>
-                                                        <Link href="/single-1">Business opportunities are like buses, there's always
-                                                            one coming.</Link>
-                                                    </h3>
-                                                    <p>
-                                                        In the past 90 days, the world has a serious escalation in
-                                                        cyberattacks.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6">
-                                                <div className="single-blog blog-md">
-                                                    <div className="blog-img">
-                                                        <Link href="/single-1"><img src="/assets/img/blog/blog3.png" alt="" /></Link>
-                                                    </div>
-                                                    <ul className="blog-tags">
-                                                        <li><Link href="#">Lifestyle</Link></li>
-                                                    </ul>
-                                                    <h3>
-                                                        <Link href="/single-1">Business opportunities are like buses, there's always
-                                                            one coming.</Link>
-                                                    </h3>
-                                                    <p>
-                                                        In the past 90 days, the world has a serious escalation in
-                                                        cyberattacks.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                                 <div className="col-md-6 col-lg-4">
-                                    <div className="widgets lg-ml-15">
+                                    <div className="widgets lg-mr-15">
                                         <div className="single-widget padding-less-widget">
                                             <h3>Search by keyword</h3>
                                             <div className="search-form-widget">
@@ -292,6 +143,155 @@ export default function Page() {
                                                 <li><Link href="#">Leadership</Link></li>
                                                 <li><Link href="#">Health Insurace</Link></li>
                                             </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-6 col-lg-8">
+                                    <div className="lg-ml-15">
+                                        <div className="row">
+                                            <div className="col-lg-6">
+                                                <div className="single-blog blog-md">
+                                                    <div className="blog-img">
+                                                        <Link href="/blog-details"><img src="/assets/img/blog/blog5.png" alt="" /></Link>
+                                                    </div>
+                                                    <ul className="blog-tags">
+                                                        <li><Link href="#">Lifestyle</Link></li>
+                                                    </ul>
+                                                    <h3>
+                                                        <Link href="/blog-details">Leadership Burnout: What causes it and how to avoid
+                                                            it</Link>
+                                                    </h3>
+                                                    <p>
+                                                        In the past 90 days, the world has a serious escalation in
+                                                        cyberattacks.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="single-blog blog-md">
+                                                    <div className="blog-img">
+                                                        <Link href="/blog-details"><img src="/assets/img/blog/blog6.png" alt="" /></Link>
+                                                    </div>
+                                                    <ul className="blog-tags">
+                                                        <li><Link href="#">Lifestyle</Link></li>
+                                                    </ul>
+                                                    <h3>
+                                                        <Link href="/blog-details">Best Practices for Employee Recognition Programs</Link>
+                                                    </h3>
+                                                    <p>
+                                                        In the past 90 days, the world has a serious escalation in
+                                                        cyberattacks.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="single-blog blog-md">
+                                                    <div className="blog-img">
+                                                        <Link href="/blog-details"><img src="/assets/img/blog/blog7.png" alt="" /></Link>
+                                                    </div>
+                                                    <ul className="blog-tags">
+                                                        <li><Link href="#">Lifestyle</Link></li>
+                                                    </ul>
+                                                    <h3>
+                                                        <Link href="/blog-details">Business opportunities are like buses, there's always
+                                                            one coming.</Link>
+                                                    </h3>
+                                                    <p>
+                                                        In the past 90 days, the world has a serious escalation in
+                                                        cyberattacks.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="single-blog blog-md">
+                                                    <div className="blog-img">
+                                                        <Link href="/blog-details"><img src="/assets/img/blog/blog8.png" alt="" /></Link>
+                                                    </div>
+                                                    <ul className="blog-tags">
+                                                        <li><Link href="#">Lifestyle</Link></li>
+                                                    </ul>
+                                                    <h3>
+                                                        <Link href="/blog-details">Leadership Burnout: What causes it and how to avoid
+                                                            it</Link>
+                                                    </h3>
+                                                    <p>
+                                                        In the past 90 days, the world has a serious escalation in
+                                                        cyberattacks.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="single-blog blog-md">
+                                                    <div className="blog-img">
+                                                        <Link href="/blog-details"><img src="/assets/img/blog/blog9.png" alt="" /></Link>
+                                                    </div>
+                                                    <ul className="blog-tags">
+                                                        <li><Link href="#">Lifestyle</Link></li>
+                                                    </ul>
+                                                    <h3>
+                                                        <Link href="/blog-details">Business opportunities are like buses, there's always
+                                                            one coming.</Link>
+                                                    </h3>
+                                                    <p>
+                                                        In the past 90 days, the world has a serious escalation in
+                                                        cyberattacks.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="single-blog blog-md">
+                                                    <div className="blog-img">
+                                                        <Link href="/blog-details"><img src="/assets/img/blog/blog3.png" alt="" /></Link>
+                                                    </div>
+                                                    <ul className="blog-tags">
+                                                        <li><Link href="#">Lifestyle</Link></li>
+                                                    </ul>
+                                                    <h3>
+                                                        <Link href="/blog-details">Leadership Burnout: What causes it and how to avoid
+                                                            it</Link>
+                                                    </h3>
+                                                    <p>
+                                                        In the past 90 days, the world has a serious escalation in
+                                                        cyberattacks.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="single-blog blog-md">
+                                                    <div className="blog-img">
+                                                        <Link href="/blog-details"><img src="/assets/img/blog/blog2.png" alt="" /></Link>
+                                                    </div>
+                                                    <ul className="blog-tags">
+                                                        <li><Link href="#">Lifestyle</Link></li>
+                                                    </ul>
+                                                    <h3>
+                                                        <Link href="/blog-details">Business opportunities are like buses, there's always
+                                                            one coming.</Link>
+                                                    </h3>
+                                                    <p>
+                                                        In the past 90 days, the world has a serious escalation in
+                                                        cyberattacks.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="single-blog blog-md">
+                                                    <div className="blog-img">
+                                                        <Link href="/blog-details"><img src="/assets/img/blog/blog3.png" alt="" /></Link>
+                                                    </div>
+                                                    <ul className="blog-tags">
+                                                        <li><Link href="#">Lifestyle</Link></li>
+                                                    </ul>
+                                                    <h3>
+                                                        <Link href="/blog-details">Business opportunities are like buses, there's always
+                                                            one coming.</Link>
+                                                    </h3>
+                                                    <p>
+                                                        In the past 90 days, the world has a serious escalation in
+                                                        cyberattacks.
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

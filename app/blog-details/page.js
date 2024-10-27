@@ -11,8 +11,143 @@ export default function Page() {
                     <div className="single-blog-area padding-top inner-font-1 inner-blog-1" id="home">
                         <div className="container">
                             <div className="row">
+                                <div className="col-lg-4">
+                                    <div className="widgets lg-mr-15">
+                                        <div className="single-widget padding-less-widget">
+                                            <h3>Search by keyword</h3>
+                                            <div className="search-form-widget">
+                                                <form>
+                                                    <input type="search" placeholder="Type keyword here" />
+                                                    <button type="submit" className="search-icon">
+                                                        <i className="fa-solid fa-magnifying-glass" />
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div className="single-widget about-widget">
+                                            <div className="about-author">
+                                                <img src="/assets/img/blog/comment.png" alt="" />
+                                            </div>
+                                            <h4>Winston Churchill.</h4>
+                                            <p>
+                                                When it comes to business, listen to Henry David Thoreau:
+                                                things usually don’t happen overnight – instead, to find
+                                                success takes a lot of time, effort, and courage. Opus
+                                                includes everything you need to build a beautiful website.
+                                            </p>
+                                            <div className="social social3 text-center">
+                                                <ul>
+                                                    <li>
+                                                        <Link data-bs-toggle="tooltip" title="Linked in" href="#"><i className="fa-brands fa-linkedin-in" /></Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link data-bs-toggle="tooltip" title="Facebook" href="#"><i className="fa-brands fa-facebook-f" /></Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link data-bs-toggle="tooltip" title="Instagram" href="#"><i className="fa-brands fa-instagram" /></Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link data-bs-toggle="tooltip" title="TikTok" href="#"><i className="fa-brands fa-tiktok" /></Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div className="single-widget recent-posts">
+                                            <h3>Recent Posts</h3>
+                                            <div className="recent-post">
+                                                <div className="recent-post-content">
+                                                    <Link href="#">Leadership Burnout: What causes it and how avoid it.</Link>
+                                                    <div className="blog-date-time">
+                                                        <ul className="blog-date">
+                                                            <li><Link href="#">01.JUL.2022</Link></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div className="recent-img">
+                                                    <img src="/assets/img/blog/recent1.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="recent-post">
+                                                <div className="recent-post-content">
+                                                    <Link href="#">Stop setting diversity goals Start meeting them.</Link>
+                                                    <div className="blog-date-time">
+                                                        <ul className="blog-date">
+                                                            <li><Link href="#">01.JUL.2022</Link></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div className="recent-img">
+                                                    <img src="/assets/img/blog/recent2.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="recent-post">
+                                                <div className="recent-post-content">
+                                                    <Link href="#">Leadership Burnout: What causes it and how avoid it.</Link>
+                                                    <div className="blog-date-time">
+                                                        <ul className="blog-date">
+                                                            <li><Link href="#">01.JUL.2022</Link></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div className="recent-img">
+                                                    <img src="/assets/img/blog/recent3.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="recent-post">
+                                                <div className="recent-post-content">
+                                                    <Link href="#">Celebrate Black History Month By Donating.</Link>
+                                                    <div className="blog-date-time">
+                                                        <ul className="blog-date">
+                                                            <li><Link href="#">01.JUL.2022</Link></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div className="recent-img">
+                                                    <img src="/assets/img/blog/recent4.png" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="single-widget categories">
+                                            <h3>Categories</h3>
+                                            <ul className="category-list">
+                                                <li>
+                                                    <Link className="active" href="#">Lifestyle
+                                                        <span><i className="fa-solid fa-angle-right" /></span></Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="#">Stories
+                                                        <span><i className="fa-solid fa-angle-right" /></span></Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="#">Updates
+                                                        <span><i className="fa-solid fa-angle-right" /></span></Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="#">Development
+                                                        <span><i className="fa-solid fa-angle-right" /></span></Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="#">Marketing
+                                                        <span><i className="fa-solid fa-angle-right" /></span></Link>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div className="single-widget tags-widget">
+                                            <h3>Tags</h3>
+                                            <ul className="tags-list">
+                                                <li><Link href="#">Healthcare</Link></li>
+                                                <li><Link href="#">Consult</Link></li>
+                                                <li><Link href="#">Cahless</Link></li>
+                                                <li><Link href="#">Cyberattacks</Link></li>
+                                                <li><Link href="#">Meeting</Link></li>
+                                                <li><Link href="#">Leadership</Link></li>
+                                                <li><Link href="#">Health Insurace</Link></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div className="col-lg-8">
-                                    <div className="single-blog-contents lg-mr-15">
+                                    <div className="single-blog-contents lg-ml-15">
                                         <div className="single-blog-img">
                                             <img src="/assets/img/blog/single1.png" alt="" />
                                         </div>
@@ -184,7 +319,7 @@ export default function Page() {
                                     <div className="write-comments">
                                         <h3>Leave a Comment</h3>
                                         <div className="comment-form">
-                                            <form action="#">
+                                            <form>
                                                 <div className="row">
                                                     <div className="col-lg-6">
                                                         <input type="text" placeholder="Name" />
@@ -202,141 +337,6 @@ export default function Page() {
                                                     </div>
                                                 </div>
                                             </form>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4">
-                                    <div className="widgets lg-ml-15">
-                                        <div className="single-widget padding-less-widget">
-                                            <h3>Search by keyword</h3>
-                                            <div className="search-form-widget">
-                                                <form action="#">
-                                                    <input type="search" placeholder="Type keyword here" />
-                                                    <button type="submit" className="search-icon">
-                                                        <i className="fa-solid fa-magnifying-glass" />
-                                                    </button>
-                                                </form>
-                                            </div>
-                                        </div>
-                                        <div className="single-widget about-widget">
-                                            <div className="about-author">
-                                                <img src="/assets/img/blog/comment.png" alt="" />
-                                            </div>
-                                            <h4>Winston Churchill.</h4>
-                                            <p>
-                                                When it comes to business, listen to Henry David Thoreau:
-                                                things usually don’t happen overnight – instead, to find
-                                                success takes a lot of time, effort, and courage. Opus
-                                                includes everything you need to build a beautiful website.
-                                            </p>
-                                            <div className="social social3 text-center">
-                                                <ul>
-                                                    <li>
-                                                        <Link data-bs-toggle="tooltip" title="Linked in" href="#"><i className="fa-brands fa-linkedin-in" /></Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link data-bs-toggle="tooltip" title="Facebook" href="#"><i className="fa-brands fa-facebook-f" /></Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link data-bs-toggle="tooltip" title="Instagram" href="#"><i className="fa-brands fa-instagram" /></Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link data-bs-toggle="tooltip" title="TikTok" href="#"><i className="fa-brands fa-tiktok" /></Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div className="single-widget recent-posts">
-                                            <h3>Recent Posts</h3>
-                                            <div className="recent-post">
-                                                <div className="recent-post-content">
-                                                    <Link href="#">Leadership Burnout: What causes it and how avoid it.</Link>
-                                                    <div className="blog-date-time">
-                                                        <ul className="blog-date">
-                                                            <li><Link href="#">01.JUL.2022</Link></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div className="recent-img">
-                                                    <img src="/assets/img/blog/recent1.png" alt="" />
-                                                </div>
-                                            </div>
-                                            <div className="recent-post">
-                                                <div className="recent-post-content">
-                                                    <Link href="#">Stop setting diversity goals Start meeting them.</Link>
-                                                    <div className="blog-date-time">
-                                                        <ul className="blog-date">
-                                                            <li><Link href="#">01.JUL.2022</Link></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div className="recent-img">
-                                                    <img src="/assets/img/blog/recent2.png" alt="" />
-                                                </div>
-                                            </div>
-                                            <div className="recent-post">
-                                                <div className="recent-post-content">
-                                                    <Link href="#">Leadership Burnout: What causes it and how avoid it.</Link>
-                                                    <div className="blog-date-time">
-                                                        <ul className="blog-date">
-                                                            <li><Link href="#">01.JUL.2022</Link></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div className="recent-img">
-                                                    <img src="/assets/img/blog/recent3.png" alt="" />
-                                                </div>
-                                            </div>
-                                            <div className="recent-post">
-                                                <div className="recent-post-content">
-                                                    <Link href="#">Celebrate Black History Month By Donating.</Link>
-                                                    <div className="blog-date-time">
-                                                        <ul className="blog-date">
-                                                            <li><Link href="#">01.JUL.2022</Link></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div className="recent-img">
-                                                    <img src="/assets/img/blog/recent4.png" alt="" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="single-widget categories">
-                                            <h3>Categories</h3>
-                                            <ul className="category-list">
-                                                <li>
-                                                    <Link className="active" href="#">Lifestyle
-                                                        <span><i className="fa-solid fa-angle-right" /></span></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">Stories
-                                                        <span><i className="fa-solid fa-angle-right" /></span></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">Updates
-                                                        <span><i className="fa-solid fa-angle-right" /></span></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">Development
-                                                        <span><i className="fa-solid fa-angle-right" /></span></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="#">Marketing
-                                                        <span><i className="fa-solid fa-angle-right" /></span></Link>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="single-widget tags-widget">
-                                            <h3>Tags</h3>
-                                            <ul className="tags-list">
-                                                <li><Link href="#">Healthcare</Link></li>
-                                                <li><Link href="#">Consult</Link></li>
-                                                <li><Link href="#">Cahless</Link></li>
-                                                <li><Link href="#">Cyberattacks</Link></li>
-                                                <li><Link href="#">Meeting</Link></li>
-                                                <li><Link href="#">Leadership</Link></li>
-                                                <li><Link href="#">Health Insurace</Link></li>
-                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -360,13 +360,13 @@ export default function Page() {
                                 <div className="col-md-6 col-lg-4">
                                     <div className="single-blog blog-md">
                                         <div className="blog-img">
-                                            <Link href="/single-1"><img src="/assets/img/blog/blog6.png" alt="" /></Link>
+                                            <Link href="/blog-details"><img src="/assets/img/blog/blog6.png" alt="" /></Link>
                                         </div>
                                         <ul className="blog-tags">
                                             <li><Link href="#">Lifestyle</Link></li>
                                         </ul>
                                         <h3>
-                                            <Link href="/single-1">"Anyone can be a refugee": Resisting racism in Neukölln.</Link>
+                                            <Link href="/blog-details">"Anyone can be a refugee": Resisting racism in Neukölln.</Link>
                                         </h3>
                                         <p>
                                             In the past 90 days, the world has a serious escalation in
@@ -377,13 +377,13 @@ export default function Page() {
                                 <div className="col-md-6 col-lg-4">
                                     <div className="single-blog blog-md">
                                         <div className="blog-img">
-                                            <Link href="/single-1"><img src="/assets/img/blog/blog7.png" alt="" /></Link>
+                                            <Link href="/blog-details"><img src="/assets/img/blog/blog7.png" alt="" /></Link>
                                         </div>
                                         <ul className="blog-tags">
                                             <li><Link href="#">Story</Link></li>
                                         </ul>
                                         <h3>
-                                            <Link href="/single-1">Best Practices for Employee Recognition Programs</Link>
+                                            <Link href="/blog-details">Best Practices for Employee Recognition Programs</Link>
                                         </h3>
                                         <p>
                                             In the past 90 days, the world has a serious escalation in
@@ -394,13 +394,13 @@ export default function Page() {
                                 <div className="col-md-6 col-lg-4">
                                     <div className="single-blog blog-md">
                                         <div className="blog-img">
-                                            <Link href="/single-1"><img src="/assets/img/blog/blog8.png" alt="" /></Link>
+                                            <Link href="/blog-details"><img src="/assets/img/blog/blog8.png" alt="" /></Link>
                                         </div>
                                         <ul className="blog-tags">
                                             <li><Link href="#">Design</Link></li>
                                         </ul>
                                         <h3>
-                                            <Link href="/single-1">Five things all HRs think when they think of diversity.</Link>
+                                            <Link href="/blog-details">Five things all HRs think when they think of diversity.</Link>
                                         </h3>
                                         <p>
                                             In the past 90 days, the world has a serious escalation in
@@ -428,7 +428,7 @@ export default function Page() {
                                 <div className="col-lg-5 col-md-6 offset-lg-1">
                                     <div className="sunscribe-form">
                                         <div className="subscribe-from-wrap">
-                                            <form action="#">
+                                            <form>
                                                 <input type="email" placeholder="Email Address" />
                                                 <button type="submit" name="button">
                                                     Subscribe Now

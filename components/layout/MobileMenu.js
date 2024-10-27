@@ -86,7 +86,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                 <li><Link href="/blog-mesonry-1">Mesonry 1</Link></li>
                                 <li><Link href="/blog-mesonry-2">Mesonry 2</Link></li>
                                 <li><Link href="/blog-mesonry-3">Mesonry 3</Link></li>
-                                <li><Link href="/single-1">Single Right</Link></li>
+                                <li><Link href="/blog-details">Single Right</Link></li>
                                 <li><Link href="/single-2">Single Default</Link></li>
                                 <li><Link href="/single-3">Single Left</Link></li>
                                 <li><Link href="/single-4">Single Fuild</Link></li>

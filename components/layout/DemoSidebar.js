@@ -167,11 +167,11 @@ export default function DemoSidebar() {
                                 <div className="demo-sidebar-item-img">
                                     <img src="/assets/img/demos/blog-inner-1.jpg" alt="" />
                                     <div className="demo-sidebar-buttons">
-                                        <Link href="/single-1">View Page</Link>
+                                        <Link href="/blog-details">View Page</Link>
                                     </div>
                                 </div>
                                 <div className="demo-item-content">
-                                    <Link href="/single-1">Blog Inner 1</Link>
+                                    <Link href="/blog-details">Blog Inner 1</Link>
                                 </div>
                             </div>
                             <div className="single-demo-sidebar-item">

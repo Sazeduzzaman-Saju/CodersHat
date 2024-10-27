@@ -60,13 +60,13 @@ export default function BlogFilter1({ twocol, blogSm }) {
                         <div className={`${twocol ? "col-md-6" : "col-md-6 col-lg-4"}  mesonry-item design marketing stories lifestyle`}>
                             <div className={`single-blog ${blogSm ? "blog-sm" : "blog-md"} `}>
                                 <div className="blog-img">
-                                    <Link href="/single-1"><img src="/assets/img/blog/blog3.png" alt="" /></Link>
+                                    <Link href="/blog-details"><img src="/assets/img/blog/blog3.png" alt="" /></Link>
                                 </div>
                                 <ul className="blog-tags">
                                     <li><Link href="#">Lifestyle</Link></li>
                                 </ul>
                                 <h3>
-                                    <Link href="/single-1">Business opportunities are like buses, there's always one
+                                    <Link href="/blog-details">Business opportunities are like buses, there's always one
                                         coming.</Link>
                                 </h3>
                                 <p>
@@ -78,13 +78,13 @@ export default function BlogFilter1({ twocol, blogSm }) {
                         <div className={`${twocol ? "col-md-6" : "col-md-6 col-lg-4"}  mesonry-item design marketing`}>
                             <div className={`single-blog ${blogSm ? "blog-sm" : "blog-md"} `}>
                                 <div className="blog-img">
-                                    <Link href="/single-1"><img src="/assets/img/blog/blog4.png" alt="" /></Link>
+                                    <Link href="/blog-details"><img src="/assets/img/blog/blog4.png" alt="" /></Link>
                                 </div>
                                 <ul className="blog-tags">
                                     <li><Link href="#">Lifestyle</Link></li>
                                 </ul>
                                 <h3>
-                                    <Link href="/single-1">Best Practices for Employee Recognition Programs</Link>
+                                    <Link href="/blog-details">Best Practices for Employee Recognition Programs</Link>
                                 </h3>
                                 <p>
                                     In the past 90 days, the world has a serious escalation in
@@ -95,13 +95,13 @@ export default function BlogFilter1({ twocol, blogSm }) {
                         <div className={`${twocol ? "col-md-6" : "col-md-6 col-lg-4"}  mesonry-item design marketing stories`}>
                             <div className={`single-blog ${blogSm ? "blog-sm" : "blog-md"} `}>
                                 <div className="blog-img">
-                                    <Link href="/single-1"><img src="/assets/img/blog/blog5.png" alt="" /></Link>
+                                    <Link href="/blog-details"><img src="/assets/img/blog/blog5.png" alt="" /></Link>
                                 </div>
                                 <ul className="blog-tags">
                                     <li><Link href="#">Lifestyle</Link></li>
                                 </ul>
                                 <h3>
-                                    <Link href="/single-1">Leadership Burnout: What causes it and how to avoid it</Link>
+                                    <Link href="/blog-details">Leadership Burnout: What causes it and how to avoid it</Link>
                                 </h3>
                                 <p>
                                     In the past 90 days, the world has a serious escalation in
@@ -112,13 +112,13 @@ export default function BlogFilter1({ twocol, blogSm }) {
                         <div className={`${twocol ? "col-md-6" : "col-md-6 col-lg-4"}  mesonry-item design marketing stories`}>
                             <div className={`single-blog ${blogSm ? "blog-sm" : "blog-md"} `}>
                                 <div className="blog-img">
-                                    <Link href="/single-1"><img src="/assets/img/blog/blog6.png" alt="" /></Link>
+                                    <Link href="/blog-details"><img src="/assets/img/blog/blog6.png" alt="" /></Link>
                                 </div>
                                 <ul className="blog-tags">
                                     <li><Link href="#">Lifestyle</Link></li>
                                 </ul>
                                 <h3>
-                                    <Link href="/single-1">Best Practices for Employee Recognition Programs</Link>
+                                    <Link href="/blog-details">Best Practices for Employee Recognition Programs</Link>
                                 </h3>
                                 <p>
                                     In the past 90 days, the world has a serious escalation in
@@ -129,13 +129,13 @@ export default function BlogFilter1({ twocol, blogSm }) {
                         <div className={`${twocol ? "col-md-6" : "col-md-6 col-lg-4"}  mesonry-item design lifestyle stories`}>
                             <div className={`single-blog ${blogSm ? "blog-sm" : "blog-md"} `}>
                                 <div className="blog-img">
-                                    <Link href="/single-1"><img src="/assets/img/blog/blog7.png" alt="" /></Link>
+                                    <Link href="/blog-details"><img src="/assets/img/blog/blog7.png" alt="" /></Link>
                                 </div>
                                 <ul className="blog-tags">
                                     <li><Link href="#">Lifestyle</Link></li>
                                 </ul>
                                 <h3>
-                                    <Link href="/single-1">Business opportunities are like buses, there's always one
+                                    <Link href="/blog-details">Business opportunities are like buses, there's always one
                                         coming.</Link>
                                 </h3>
                                 <p>
@@ -147,13 +147,13 @@ export default function BlogFilter1({ twocol, blogSm }) {
                         <div className={`${twocol ? "col-md-6" : "col-md-6 col-lg-4"}  mesonry-item design markering`}>
                             <div className={`single-blog ${blogSm ? "blog-sm" : "blog-md"} `}>
                                 <div className="blog-img">
-                                    <Link href="/single-1"><img src="/assets/img/blog/blog8.png" alt="" /></Link>
+                                    <Link href="/blog-details"><img src="/assets/img/blog/blog8.png" alt="" /></Link>
                                 </div>
                                 <ul className="blog-tags">
                                     <li><Link href="#">Lifestyle</Link></li>
                                 </ul>
                                 <h3>
-                                    <Link href="/single-1">Leadership Burnout: What causes it and how to avoid it</Link>
+                                    <Link href="/blog-details">Leadership Burnout: What causes it and how to avoid it</Link>
                                 </h3>
                                 <p>
                                     In the past 90 days, the world has a serious escalation in
@@ -164,13 +164,13 @@ export default function BlogFilter1({ twocol, blogSm }) {
                         <div className={`${twocol ? "col-md-6" : "col-md-6 col-lg-4"}  mesonry-item design lifestyle`}>
                             <div className={`single-blog ${blogSm ? "blog-sm" : "blog-md"} `}>
                                 <div className="blog-img">
-                                    <Link href="/single-1"><img src="/assets/img/blog/blog9.png" alt="" /></Link>
+                                    <Link href="/blog-details"><img src="/assets/img/blog/blog9.png" alt="" /></Link>
                                 </div>
                                 <ul className="blog-tags">
                                     <li><Link href="#">Lifestyle</Link></li>
                                 </ul>
                                 <h3>
-                                    <Link href="/single-1">Business opportunities are like buses, there's always one
+                                    <Link href="/blog-details">Business opportunities are like buses, there's always one
                                         coming.</Link>
                                 </h3>
                                 <p>
@@ -182,13 +182,13 @@ export default function BlogFilter1({ twocol, blogSm }) {
                         <div className={`${twocol ? "col-md-6" : "col-md-6 col-lg-4"}  mesonry-item stories lifestyle`}>
                             <div className={`single-blog ${blogSm ? "blog-sm" : "blog-md"} `}>
                                 <div className="blog-img">
-                                    <Link href="/single-1"><img src="/assets/img/blog/blog3.png" alt="" /></Link>
+                                    <Link href="/blog-details"><img src="/assets/img/blog/blog3.png" alt="" /></Link>
                                 </div>
                                 <ul className="blog-tags">
                                     <li><Link href="#">Lifestyle</Link></li>
                                 </ul>
                                 <h3>
-                                    <Link href="/single-1">Leadership Burnout: What causes it and how to avoid it</Link>
+                                    <Link href="/blog-details">Leadership Burnout: What causes it and how to avoid it</Link>
                                 </h3>
                                 <p>
                                     In the past 90 days, the world has a serious escalation in
@@ -199,13 +199,13 @@ export default function BlogFilter1({ twocol, blogSm }) {
                         <div className={`${twocol ? "col-md-6" : "col-md-6 col-lg-4"}  mesonry-item design`}>
                             <div className={`single-blog ${blogSm ? "blog-sm" : "blog-md"} `}>
                                 <div className="blog-img">
-                                    <Link href="/single-1"><img src="/assets/img/blog/blog2.png" alt="" /></Link>
+                                    <Link href="/blog-details"><img src="/assets/img/blog/blog2.png" alt="" /></Link>
                                 </div>
                                 <ul className="blog-tags">
                                     <li><Link href="#">Lifestyle</Link></li>
                                 </ul>
                                 <h3>
-                                    <Link href="/single-1">Business opportunities are like buses, there's always one
+                                    <Link href="/blog-details">Business opportunities are like buses, there's always one
                                         coming.</Link>
                                 </h3>
                                 <p>

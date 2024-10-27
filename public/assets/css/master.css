@@ -7906,7 +7906,7 @@ li.multi-dropdown-parrent:hover > ul.multi-dropdown.theme-dropdown {
 }
 .header .single-mega-menu {
   border-right: 1px solid #f1f1f1;
-  width: 200px;
+  width: 33.3%;
 }
 .header .single-mega-menu:last-child {
   border: none;
