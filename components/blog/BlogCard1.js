@@ -4,6 +4,7 @@ export default function BlogCard1({ item }) {
     return (
         <>
 
+
             <div className="single-blog blog-lg">
                 <div className="blog-img">
                     <Link href={`/blog-1/${item.id}`}><img src={`/assets/img/blog/${item.img}`} alt="" /></Link>

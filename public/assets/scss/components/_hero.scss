@@ -13,7 +13,7 @@
   height: 700px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: end;
   margin-right: -100px;
   @media #{$lp} {
     margin-right: 0;
@@ -395,7 +395,7 @@
 .service4-btn {
   @media  #{$mlg}{
     display: flex;
-  justify-content: flex-end;
+  justify-content: end;
   }
   
 }

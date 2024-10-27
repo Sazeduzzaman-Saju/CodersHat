@@ -2795,7 +2795,7 @@ img {
   height: 700px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: end;
   margin-right: -100px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -3207,7 +3207,7 @@ img {
 @media (min-width: 992px) {
   .service4-btn {
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
   }
 }
 
