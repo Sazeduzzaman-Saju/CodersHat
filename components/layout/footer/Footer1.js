@@ -2,7 +2,7 @@ import Link from "next/link"
 export default function Footer1() {
     return (
         <>
-            <footer className="footer-area padding-top footer-2 bg9">
+            <footer className="footer-area padding-top footer-2 cst-bg">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
@@ -66,7 +66,7 @@ export default function Footer1() {
                     </div>
                     <div className="row align-items-center copyright2">
                         <div className="col-lg-6">
-                            <p>© 2023 Consultia by fleexstudio. All Rights Reserved.</p>
+                            <p>© 2024 Coders Hat. All Rights Reserved.</p>
                         </div>
                         <div className="col-lg-6 text-right">
                             <div className="social social2">

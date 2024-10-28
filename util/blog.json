@@ -1,66 +1,166 @@
-[
+{
+  "status": "200",
+  "message": "success",
+  "data": [
     {
-        "id": 1,
-        "title": "Scientists speculate that ours might not be held",
-        "img": "blog1.png",
-        "category": "Gaming",
-        "author": "miranda h.",
-        "date": "25 April 2023"
+      "id": 1,
+      "name": "Bangladesh",
+      "name_bangla": "বাংলাদেশ",
+      "code": "1",
+      "serial": 1,
+      "status": 1
     },
     {
-        "id": 2,
-        "title": "The Multiverse is the collection of alternate universes",
-        "img": "blog2.png",
-        "category": "Tech",
-        "author": "miranda h.",
-        "date": "25 April 2023"
+      "id": 2,
+      "name": "UnitedStates",
+      "name_bangla": "যুক্তরাষ্ট্র",
+      "code": "2",
+      "serial": 2,
+      "status": 1
     },
     {
-        "id": 3,
-        "title": "That share a universal hierarchy a large variety of these",
-        "img": "blog3.png",
-        "category": "Movie",
-        "author": "miranda h.",
-        "date": "25 April 2023"
+      "id": 3,
+      "name": "New-York",
+      "name_bangla": "নিউইয়র্ক",
+      "code": "3",
+      "serial": 3,
+      "status": 1
     },
     {
-        "id": 4,
-        "title": "Universes were originated from another due to a major",
-        "img": "blog1.png",
-        "category": "Sports",
-        "author": "miranda h.",
-        "date": "25 April 2023"
+      "id": 4,
+      "name": "International\n",
+      "name_bangla": "সারা বিশ্ব",
+      "code": "4",
+      "serial": 4,
+      "status": 1
     },
     {
-        "id": 5,
-        "title": "A hypothetical collection of potentially diverse",
-        "img": "blog2.png",
-        "category": "Gaming",
-        "author": "miranda h.",
-        "date": "25 April 2023"
+      "id": 5,
+      "name": "BangladeshLocal",
+      "name_bangla": "সারা বাংলা",
+      "code": "5",
+      "serial": 5,
+      "status": 1
     },
     {
-        "id": 6,
-        "title": "Stanford physicists Andrei Linde In a new study",
-        "img": "blog3.png",
-        "category": "Tech",
-        "author": "miranda h.",
-        "date": "25 April 2023"
+      "id": 6,
+      "name": "Sports",
+      "name_bangla": "খেলা",
+      "code": "6",
+      "serial": 6,
+      "status": 1
     },
     {
-        "id": 7,
-        "title": "Accessible to telescopes, is about 90 billion years",
-        "img": "blog1.png",
-        "category": "Movie",
-        "author": "miranda h.",
-        "date": "25 April 2023"
+      "id": 7,
+      "name": "Entertainment",
+      "name_bangla": "বিনোদন",
+      "code": "7",
+      "serial": 7,
+      "status": 1
     },
     {
-        "id": 8,
-        "title": "Observable universes each of which would comprise",
-        "img": "blog2.png",
-        "category": "Sports",
-        "author": "miranda h.",
-        "date": "25 April 2023"
+      "id": 8,
+      "name": "Religion",
+      "name_bangla": "ধর্ম",
+      "code": "8",
+      "serial": 8,
+      "status": 1
+    },
+    {
+      "id": 9,
+      "name": "Abroad",
+      "name_bangla": "প্রবাস",
+      "code": "9",
+      "serial": 9,
+      "status": 1
+    },
+    {
+      "id": 10,
+      "name": "Lifestyle",
+      "name_bangla": "লাইফস্টাইল",
+      "code": "10",
+      "serial": 10,
+      "status": 1
+    },
+    {
+      "id": 11,
+      "name": "Health",
+      "name_bangla": "স্বাস্থ্য",
+      "code": "11",
+      "serial": 11,
+      "status": 1
+    },
+    {
+      "id": 12,
+      "name": "Politics",
+      "name_bangla": "রাজনীতি",
+      "code": "12",
+      "serial": 12,
+      "status": 1
+    },
+    {
+      "id": 13,
+      "name": "Community",
+      "name_bangla": "কমিউনিটি সংবাদ",
+      "code": "13",
+      "serial": 13,
+      "status": 1
+    },
+    {
+      "id": 14,
+      "name": "Interview",
+      "name_bangla": "সাক্ষাৎকার",
+      "code": "14",
+      "serial": 14,
+      "status": 1
+    },
+    {
+      "id": 15,
+      "name": "Opinion",
+      "name_bangla": "খোলামত",
+      "code": "15",
+      "serial": 15,
+      "status": 1
+    },
+    {
+      "id": 16,
+      "name": "ScienceTechnology",
+      "name_bangla": "বিজ্ঞান ও প্রযুক্তি",
+      "code": "16",
+      "serial": 16,
+      "status": 1
+    },
+    {
+      "id": 17,
+      "name": "Others",
+      "name_bangla": "অন্যান্য",
+      "code": "17",
+      "serial": 17,
+      "status": 1
+    },
+    {
+      "id": 18,
+      "name": "Development",
+      "name_bangla": "উন্নয়ন",
+      "code": "18",
+      "serial": 18,
+      "status": 1
+    },
+    {
+      "id": 19,
+      "name": "Literature",
+      "name_bangla": "সাহিত্য",
+      "code": "19",
+      "serial": 19,
+      "status": 1
+    },
+    {
+      "id": 20,
+      "name": "Video",
+      "name_bangla": "ভিডিও",
+      "code": "20",
+      "serial": 20,
+      "status": 1
     }
-]
+  ]
+}

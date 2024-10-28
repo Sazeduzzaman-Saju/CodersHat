@@ -122,9 +122,6 @@ export default function Menu() {
           <Link href="/teams">Team</Link>
         </li>
         <li className="dropdown-parrent">
-          <Link href="/pricing">Pricing</Link>
-        </li>
-        <li className="dropdown-parrent">
           <Link href="/careers">Career</Link>
         </li>
         <li className="dropdown-parrent">
