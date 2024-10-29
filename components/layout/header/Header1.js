@@ -17,7 +17,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                 <div className="header_menu_area">
                   <div className="logo">
                     <Link href="/">
-                      <img src="/assets/img/logo/site-logo.jpg" alt="" />
+                      <img src="/assets/img/logo/site-logo-3.svg" alt="" />
                     </Link>
                   </div>
                   <div className="main-menu">
