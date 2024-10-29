@@ -10,7 +10,6 @@ import Contact from "@/components/homepages/home5/Contact";
 import Blog from "@/components/homepages/home4/Blog";
 import Counter from "@/components/homepages/home5/Counter";
 import Logo from "@/components/homepages/home4/Logo";
-import TaxBusiness from "@/components/homepages/home1/TaxBusiness";
 
 export default function Page() {
   return (

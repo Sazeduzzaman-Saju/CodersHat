@@ -3,6 +3,7 @@ import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 import RecentBlogs from "./RecentBlogs/RecentBlogs";
 import FallbackImages from "@/util/FallBackImage/FallBackImage";
+import RecentAllBlogs from "./RecentBlogs/RecentAllBlogs";
 
 const SingleBlogs = ({ blogLists }) => {
   // Function to format date as '01.JUL.2022'
@@ -362,7 +363,7 @@ const SingleBlogs = ({ blogLists }) => {
                   </div>
                 </div>
               </div>
-              <RecentBlogs/>
+              <RecentAllBlogs/>
             </div>
           </div>
           {/*=====More blog end=======*/}
