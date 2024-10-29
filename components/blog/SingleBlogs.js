@@ -362,77 +362,7 @@ const SingleBlogs = ({ blogLists }) => {
                   </div>
                 </div>
               </div>
-              <div className="row">
-                <div className="col-md-6 col-lg-4">
-                  <div className="single-blog blog-md">
-                    <div className="blog-img">
-                      <Link href="/blog-details">
-                        <img src="/assets/img/blog/blog6.png" alt="" />
-                      </Link>
-                    </div>
-                    <ul className="blog-tags">
-                      <li>
-                        <Link href="#">Lifestyle</Link>
-                      </li>
-                    </ul>
-                    <h3>
-                      <Link href="/blog-details">
-                        "Anyone can be a refugee": Resisting racism in Neukölln.
-                      </Link>
-                    </h3>
-                    <p>
-                      In the past 90 days, the world has a serious escalation in
-                      cyberattacks.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-6 col-lg-4">
-                  <div className="single-blog blog-md">
-                    <div className="blog-img">
-                      <Link href="/blog-details">
-                        <img src="/assets/img/blog/blog7.png" alt="" />
-                      </Link>
-                    </div>
-                    <ul className="blog-tags">
-                      <li>
-                        <Link href="#">Story</Link>
-                      </li>
-                    </ul>
-                    <h3>
-                      <Link href="/blog-details">
-                        Best Practices for Employee Recognition Programs
-                      </Link>
-                    </h3>
-                    <p>
-                      In the past 90 days, the world has a serious escalation in
-                      cyberattacks.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-6 col-lg-4">
-                  <div className="single-blog blog-md">
-                    <div className="blog-img">
-                      <Link href="/blog-details">
-                        <img src="/assets/img/blog/blog8.png" alt="" />
-                      </Link>
-                    </div>
-                    <ul className="blog-tags">
-                      <li>
-                        <Link href="#">Design</Link>
-                      </li>
-                    </ul>
-                    <h3>
-                      <Link href="/blog-details">
-                        Five things all HRs think when they think of diversity.
-                      </Link>
-                    </h3>
-                    <p>
-                      In the past 90 days, the world has a serious escalation in
-                      cyberattacks.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <RecentBlogs/>
             </div>
           </div>
           {/*=====More blog end=======*/}
