@@ -1,8 +1,21 @@
+import FallbackImages from "@/util/FallBackImage/FallBackImage";
 import Link from "next/link";
 import React from "react";
 
 const BlogsCards = ({ allBlogs }) => {
-  console.log(allBlogs, "all allBlogs");
+  const blogsData = allBlogs.slice(0, 3);
+  // Function to format date as '01.JUL.2022'
+  const formatDate = (dateString) => {
+    const date = new Date(dateString);
+    return date
+      .toLocaleDateString("en-GB", {
+        day: "2-digit",
+        month: "short",
+        year: "numeric",
+      })
+      .toUpperCase()
+      .replace(/\s/g, "."); // Format to '01.JUL.2022'
+  };
   return (
     <div className="container">
       <div className="row">
@@ -21,31 +34,38 @@ const BlogsCards = ({ allBlogs }) => {
         </div>
       </div>
       <div className="row">
-        {allBlogs && allBlogs.length > 0 ? (
-          allBlogs.map((blog, index) => (
+        {blogsData && blogsData.length > 0 ? (
+          blogsData.map((blog, index) => (
             <div
-              key={blog.id} // Use unique key for each blog post
+              key={index} // Use unique key for each blog post
               className="col-lg-4"
               data-aos="fade-up"
               data-aos-duration={600 + index * 200} // Increment animation delay
             >
-              {/* <div className="single-blog blog-sm">
-                <div className="blog-img">
-                  <img src={`/assets/img/blog/${blog.img}`} alt={blog.title} />
-                </div>
-                <ul className="blog-tags">
-                  <li>
-                    <Link href="#">{blog.category}</Link>
-                  </li>
-                </ul>
-                <h3>
-                  <Link href="/single">{blog.title}</Link>
-                </h3>
-                <p>
-                  {blog.author} - {blog.date}
-                </p>
-              </div> */}
-              asdasdasd
+              <div className="single-blog blog-sm">
+                <Link href={`/blog-detail/${blog.slug}`}>
+                  <div className="blog-img">
+                    <FallbackImages
+                      className="img-fluid"
+                      src={`https://backoffice.codershatbd.com/storage/${blog.image}`} 
+                      alt={blog.title}
+                      title="Advertisement expired"
+                    />
+                  </div>
+                  <ul className="blog-tags">
+                    <li>
+                      <Link href="#">{blog.badge}</Link>
+                    </li>
+                  </ul>
+                  <h3>{blog.title}</h3>
+
+                  <p>{blog.header}</p>
+                  <p>
+                    <span>{blog.author || "Coder's Hat"}</span> -{" "}
+                    {formatDate(blog.created_at)}
+                  </p>
+                </Link>
+              </div>
             </div>
           ))
         ) : (
@@ -54,7 +74,7 @@ const BlogsCards = ({ allBlogs }) => {
 
         <div className="space40" />
         <div className="col-12 text-center">
-          <Link href="/blog" className="theme-btn-5">
+          <Link href="/blogs" className="theme-btn-5">
             Read all blog posts
           </Link>
         </div>

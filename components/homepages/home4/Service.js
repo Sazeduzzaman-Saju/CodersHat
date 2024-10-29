@@ -22,7 +22,7 @@ export default function Service() {
                                 </div>
                                 <div className="service-content">
                                     <h3>Operation Monitoring</h3>
-                                    <p>When it comes to business, listen to Henry David Thoreau: things usually don’t happen
+                                    <p>When it comes to business, listen to Khandker Shahed: things usually don’t happen
                                         overnight.</p>
                                 </div>
                                 <Link href="#" className="theme-btn-6">Check out more <i className="ps-2 fa-solid fa-arrow-right" /></Link>
@@ -35,7 +35,7 @@ export default function Service() {
                                 </div>
                                 <div className="service-content">
                                     <h3>Compliance</h3>
-                                    <p>When it comes to business, listen to Henry David Thoreau: things usually don’t happen
+                                    <p>When it comes to business, listen to Khandker Shahed: things usually don’t happen
                                         overnight.</p>
                                 </div>
                                 <Link href="#" className="theme-btn-6">Check out more <i className="ps-2 fa-solid fa-arrow-right" /></Link>
@@ -48,7 +48,7 @@ export default function Service() {
                                 </div>
                                 <div className="service-content">
                                     <h3>Project Management</h3>
-                                    <p>When it comes to business, listen to Henry David Thoreau: things usually don’t happen
+                                    <p>When it comes to business, listen to Khandker Shahed: things usually don’t happen
                                         overnight.</p>
                                 </div>
                                 <Link href="#" className="theme-btn-6">Check out more <i className="ps-2 fa-solid fa-arrow-right" /></Link>
@@ -61,7 +61,7 @@ export default function Service() {
                                 </div>
                                 <div className="service-content">
                                     <h3>Human Resources</h3>
-                                    <p>When it comes to business, listen to Henry David Thoreau: things usually don’t happen
+                                    <p>When it comes to business, listen to Khandker Shahed: things usually don’t happen
                                         overnight.</p>
                                 </div>
                                 <Link href="#" className="theme-btn-6">Check out more <i className="ps-2 fa-solid fa-arrow-right" /></Link>
@@ -74,7 +74,7 @@ export default function Service() {
                                 </div>
                                 <div className="service-content">
                                     <h3>Quality Assurance</h3>
-                                    <p>When it comes to business, listen to Henry David Thoreau: things usually don’t happen
+                                    <p>When it comes to business, listen to Khandker Shahed: things usually don’t happen
                                         overnight.</p>
                                 </div>
                                 <Link href="#" className="theme-btn-6">Check out more <i className="ps-2 fa-solid fa-arrow-right" /></Link>
@@ -87,7 +87,7 @@ export default function Service() {
                                 </div>
                                 <div className="service-content">
                                     <h3>Process Development</h3>
-                                    <p>When it comes to business, listen to Henry David Thoreau: things usually don’t happen
+                                    <p>When it comes to business, listen to Khandker Shahed: things usually don’t happen
                                         overnight.</p>
                                 </div>
                                 <Link href="#" className="theme-btn-6">Check out more <i className="ps-2 fa-solid fa-arrow-right" /></Link>

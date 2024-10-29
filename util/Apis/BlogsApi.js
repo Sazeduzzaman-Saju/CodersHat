@@ -1,5 +1,5 @@
-export default async function BlogAllApi() {
-  const route = `https://backoffice.ajkal.us/news-category`;
+export default async function AllBlogsApi() {
+  const route = `https://backoffice.codershatbd.com/api/all-blogs`;
 
   try {
     let data = await fetch(route);
@@ -7,8 +7,8 @@ export default async function BlogAllApi() {
     if (!data.ok) {
       throw new Error(`Failed to fetch data: ${data.statusText}`);
     }
-    let categoryNewsData = await data.json();
-    return categoryNewsData?.data; // Safely extract the data
+    let spotlightData = await data.json();
+    return spotlightData?.blog_posts; // Adjusted to match the actual JSON structure
   } catch (error) {
     console.error("Error fetching data:", error);
   }

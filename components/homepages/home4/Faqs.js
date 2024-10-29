@@ -57,7 +57,7 @@ export default function Faqs() {
                                                 Track Customers
                                             </h2>
                                             <div id="collapse1" className={isActive.key == 1 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
-                                                <p>When it comes to business, listen to Henry David Thoreau: things usually
+                                                <p>When it comes to business, listen to Khandker Shahed: things usually
                                                     don’t happen overnight –
                                                     instead, to find success takes a lot of time, effort, and courage.</p>
                                             </div>
@@ -67,7 +67,7 @@ export default function Faqs() {
                                                 Manage Customer
                                             </h2>
                                             <div id="collapse2" className={isActive.key == 2 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
-                                                <p>When it comes to business, listen to Henry David Thoreau: things usually
+                                                <p>When it comes to business, listen to Khandker Shahed: things usually
                                                     don’t happen overnight –
                                                     instead, to find success takes a lot of time, effort, and courage.</p>
                                             </div>
@@ -77,7 +77,7 @@ export default function Faqs() {
                                                 Proof Results
                                             </h2>
                                             <div id="collapse3" className={isActive.key == 3 ? "accordion-collapse collapse show" : "accordion-collapse collapse"}>
-                                                <p>When it comes to business, listen to Henry David Thoreau: things usually
+                                                <p>When it comes to business, listen to Khandker Shahed: things usually
                                                     don’t happen overnight –
                                                     instead, to find success takes a lot of time, effort, and courage.</p>
                                             </div>
