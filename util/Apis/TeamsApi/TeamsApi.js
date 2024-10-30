@@ -1,5 +1,5 @@
 export default async function TeamsApi() {
-  const route = `https://backoffice.codershatbd.com/api/blog-categories`;
+  const route = `https://backoffice.codershatbd.com/api/all-team-members`;
 
   try {
     const data = await fetch(route);
@@ -11,8 +11,8 @@ export default async function TeamsApi() {
     const teamData = await data.json();
 
     // Return only the array of categories if it's an array
-    if (Array.isArray(teamData.categorys)) {
-      return teamData.categorys;
+    if (Array.isArray(teamData.teams)) {
+      return teamData?.teams;
     } else {
       throw new Error(
         "Expected an array of categories but got something else."

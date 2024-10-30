@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Layout from "../layout/Layout";
+import FallbackProfileImages from "@/util/FallBackImage/FallBackProfileImage";
 
 const AllTeams = ({ teamData }) => {
   return (
@@ -11,26 +12,31 @@ const AllTeams = ({ teamData }) => {
             <div className="container">
               <div className="row">
                 {teamData && teamData.length > 0 ? (
-                  teamData.map((blog, index) => (
+                  teamData.map((member, index) => (
                     <div className="col-lg-3 col-md-6">
                       <div className="single-team">
                         <div className="team-sides team-font-side">
                           <div className="team-img">
-                            <img src="/assets/img/team/team9.jpg" alt="" />
+                            <FallbackProfileImages
+                              className="img-fluid"
+                              src={`https://backoffice.codershatbd.com/storage/${member.image}`}
+                              alt={member.name}
+                              title="Advertisement expired"
+                            />
                           </div>
                           <div className="team-content bg-18">
                             <Link className="weight-700" href="#">
-                              Kathryn Murphy
+                              {member.name}
                             </Link>
-                            <p>Senior Consultant</p>
+                            <p>{member.designation}</p>
                           </div>
                         </div>
                         <div className="team-sides team-back-side">
                           <div className="team-content bg-18">
                             <Link className="weight-700" href="#">
-                              Kathryn Murphy
+                              {member.name}
                             </Link>
-                            <p>Senior Consultant</p>
+                            <p>{member.designation}</p>
                             <div className="space10" />
                             <div className="team-socials">
                               <ul>
@@ -38,7 +44,7 @@ const AllTeams = ({ teamData }) => {
                                   <Link
                                     data-bs-toggle="tooltip"
                                     title="Linked in"
-                                    href="#"
+                                    href={member.linked_in || "No Linked In URL"}
                                   >
                                     <i className="fa-brands fa-linkedin-in" />
                                   </Link>
@@ -47,7 +53,7 @@ const AllTeams = ({ teamData }) => {
                                   <Link
                                     data-bs-toggle="tooltip"
                                     title="Facebook"
-                                    href="#"
+                                    href={member.linked_in || "No Facebook In URL"}
                                   >
                                     <i className="fa-brands fa-facebook-f" />
                                   </Link>
@@ -56,7 +62,7 @@ const AllTeams = ({ teamData }) => {
                                   <Link
                                     data-bs-toggle="tooltip"
                                     title="Instagram"
-                                    href="#"
+                                    href={member.linked_in || "No Instagram In URL"}
                                   >
                                     <i className="fa-brands fa-instagram" />
                                   </Link>
@@ -64,10 +70,10 @@ const AllTeams = ({ teamData }) => {
                                 <li className="pe-2">
                                   <Link
                                     data-bs-toggle="tooltip"
-                                    title="TikTok"
-                                    href="#"
+                                    title="Github"
+                                    href={member.linked_in || "No github In URL"}
                                   >
-                                    <i className="fa-brands fa-tiktok" />
+                                    <i className="fa-brands fa-github" />
                                   </Link>
                                 </li>
                               </ul>
@@ -106,7 +112,7 @@ const AllTeams = ({ teamData }) => {
                         our team?
                       </p>
                       <div className="space30" />
-                      <Link className="theme-btn-11" href="#">
+                      <Link className="theme-btn-11" href="/contacts">
                         Book Now
                         <img
                           src="/assets/img/icons/arrow-up-right.svg"
