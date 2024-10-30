@@ -1,4 +1,3 @@
-import BlogCategory from "@/components/blog/BlogCategory/BlogCategory";
 import Blogs from "@/components/blog/Blogs";
 import AllBlogsApi from "@/util/Apis/BlogsApi";
 import BlogCategoryApi from "@/util/Apis/BlogsApi/BlogCategoryApi";

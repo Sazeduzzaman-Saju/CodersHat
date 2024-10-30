@@ -1,6 +1,5 @@
 import React from "react";
 import Layout from "../layout/Layout";
-import Link from "next/link";
 import BlogCategory from "./BlogCategory/BlogCategory";
 import AllBlogs from "./AllBlogs";
 
