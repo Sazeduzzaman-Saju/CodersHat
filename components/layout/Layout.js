@@ -18,6 +18,7 @@ import Header3 from "./header/Header3";
 import Header4 from "./header/Header4";
 import Header5 from "./header/Header5";
 import Header6 from "./header/Header6";
+import SiteInfoApi from "@/util/Apis/SiteInfo/SiteInfo";
 
 export default function Layout({
   headerStyle,
@@ -27,8 +28,9 @@ export default function Layout({
   children,
 }) {
   const [scroll, setScroll] = useState(0);
-  // Moblile Menu
   const [isMobileMenu, setMobileMenu] = useState(false);
+  const [categoryData, setCategoryData] = useState(null);
+
   const handleMobileMenu = () => setMobileMenu(!isMobileMenu);
 
   useEffect(() => {
@@ -40,7 +42,20 @@ export default function Layout({
         setScroll(scrollCheck);
       }
     });
-  }, []);
+
+    // Fetch Blog Category Data
+    async function fetchBlogCategoryData() {
+      try {
+        const data = await SiteInfoApi();
+        setCategoryData(data);
+      } catch (error) {
+        console.error("Error fetching blog category data:", error);
+      }
+    }
+
+    fetchBlogCategoryData();
+  }, []); // Empty array to only fetch on mount
+
   return (
     <>
       <PageHead headTitle={headTitle} />
@@ -50,69 +65,74 @@ export default function Layout({
           scroll={scroll}
           isMobileMenu={isMobileMenu}
           handleMobileMenu={handleMobileMenu}
+          categoryData={categoryData}
         />
       )}
-      {headerStyle == 1 ? (
+      {headerStyle === 1 && (
         <Header1
           scroll={scroll}
           isMobileMenu={isMobileMenu}
           handleMobileMenu={handleMobileMenu}
+          categoryData={categoryData}
         />
-      ) : null}
-      {headerStyle == 2 ? (
+      )}
+      {headerStyle === 2 && (
         <Header2
           scroll={scroll}
           isMobileMenu={isMobileMenu}
           handleMobileMenu={handleMobileMenu}
+          categoryData={categoryData}
         />
-      ) : null}
-      {headerStyle == 3 ? (
+      )}
+      {headerStyle === 3 && (
         <Header3
           scroll={scroll}
           isMobileMenu={isMobileMenu}
           handleMobileMenu={handleMobileMenu}
+          categoryData={categoryData}
         />
-      ) : null}
-      {headerStyle == 4 ? (
+      )}
+      {headerStyle === 4 && (
         <Header4
           scroll={scroll}
           isMobileMenu={isMobileMenu}
           handleMobileMenu={handleMobileMenu}
+          categoryData={categoryData}
         />
-      ) : null}
-      {headerStyle == 5 ? (
+      )}
+      {headerStyle === 5 && (
         <Header5
           scroll={scroll}
           isMobileMenu={isMobileMenu}
           handleMobileMenu={handleMobileMenu}
+          categoryData={categoryData}
         />
-      ) : null}
-      {headerStyle == 6 ? (
+      )}
+      {headerStyle === 6 && (
         <Header6
           scroll={scroll}
           isMobileMenu={isMobileMenu}
           handleMobileMenu={handleMobileMenu}
+          categoryData={categoryData}
         />
-      ) : null}
+      )}
 
       <MobileMenu
         isMobileMenu={isMobileMenu}
         handleMobileMenu={handleMobileMenu}
       />
-
       {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
       {children}
 
-      {!footerStyle && <Footer1 />}
-      {footerStyle == 1 ? <Footer1 /> : null}
-      {footerStyle == 2 ? <Footer2 /> : null}
-      {footerStyle == 3 ? <Footer3 /> : null}
-      {footerStyle == 4 ? <Footer4 /> : null}
-      {footerStyle == 5 ? <Footer5 /> : null}
-      {footerStyle == 6 ? <Footer6 /> : null}
+      {!footerStyle && <Footer1  categoryData={categoryData}/>}
+      {footerStyle === 1 && <Footer1  categoryData={categoryData}/>}
+      {footerStyle === 2 && <Footer2  categoryData={categoryData}/>}
+      {footerStyle === 3 && <Footer3  categoryData={categoryData}/>}
+      {footerStyle === 4 && <Footer4  categoryData={categoryData}/>}
+      {footerStyle === 5 && <Footer5  categoryData={categoryData}/>}
+      {footerStyle === 6 && <Footer6  categoryData={categoryData}/>}
 
       <DemoSidebar />
-
       <BackToTop scroll={scroll} />
     </>
   );

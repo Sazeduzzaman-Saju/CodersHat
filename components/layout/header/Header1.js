@@ -1,8 +1,13 @@
 import Link from "next/link";
 import Menu from "../Menu";
-import FallbackImages from "@/util/FallBackImage/FallBackImage";
 
-export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
+export default function Header1({
+  scroll,
+  isMobileMenu,
+  handleMobileMenu,
+  categoryData,
+}) {
+  console.log(categoryData,"data")
   return (
     <>
       <header
@@ -18,7 +23,11 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                 <div className="header_menu_area">
                   <div className="logo">
                     <Link href="/">
-                      <img height={80} src="https://backoffice.codershatbd.com/storage/webSetting/site_logo_black/wUCWy73GjL1730359257.png" alt="" />
+                      <img
+                        height={80}
+                        src={`https://backoffice.codershatbd.com/storage/${categoryData?.site_logo_black}`}
+                        alt=""
+                      />
                     </Link>
                   </div>
                   <div className="main-menu">
@@ -33,8 +42,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                       <i className="fa-light fa-phone" />
                     </div>
                     <div className="quick_contact_content">
-                      <small>Hotline 24/7</small>
-                      <Link href="/tel:+49 30 923325544">+49 30 923325544</Link>
+                      <small>{categoryData?.contact_email}</small>
+                      <Link href={`mailto:${categoryData?.primary_phone}`}>
+                        {categoryData?.primary_phone}
+                      </Link>
                     </div>
                   </div>
                 </div>
