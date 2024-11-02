@@ -9,7 +9,7 @@ export default function Customers() {
                     <div className="row">
                         <div className="col-lg-7 m-auto text-center">
                             <div className="hadding6">
-                                <h1 className="font-f-7" data-aos="fade-up" data-aos-duration={700}>Consultia is trusted by many
+                                <h1 className="font-f-7" data-aos="fade-up" data-aos-duration={700}>Coder's Hat is trusted by many
                                     <br /> <span className="after6">satisfied customers.</span></h1>
                             </div>
                         </div>

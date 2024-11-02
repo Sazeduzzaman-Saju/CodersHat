@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="ABOUT CONSULTIA">
+      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="ABOUT Coder's Hat">
         <div>
           <div className="about-inner bg-28 section-padding">
             <div className="container">
@@ -121,7 +121,7 @@ export default function Page() {
                       <img src="/assets/img/icons/hands.svg" alt="" />
                       Our Success in Numbers
                     </small>
-                    <h2>Why Consultia advisor is the best?</h2>
+                    <h2>Why Coder's Hat advisor is the best?</h2>
                   </div>
                 </div>
               </div>

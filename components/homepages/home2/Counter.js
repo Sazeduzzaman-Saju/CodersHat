@@ -11,7 +11,7 @@ export default function Counter() {
                             <div className="heading4 white-heading text-center">
                                 <small data-aos="fade-up" data-aos-duration={200} className="overline">Facts</small>
                                 <h2 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-offset={400} data-aos-duration={400}>
-                                    Why Consultia law is the best?</h2>
+                                    Why Coder's Hat law is the best?</h2>
                             </div>
                         </div>
                     </div>

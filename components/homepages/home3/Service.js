@@ -9,7 +9,7 @@ export default function Service() {
                         <div className="col-lg-10 m-auto">
                             <div className="heading3 text-center">
                                 <small data-aos="fade-up" data-aos-duration={600} className="overline">Practice Areas</small>
-                                <h2 data-aos="fade-up" data-aos-duration={800}>Consultia Law offers a wide range of legal
+                                <h2 data-aos="fade-up" data-aos-duration={800}>Coder's Hat Law offers a wide range of legal
                                     services </h2>
                             </div>
                         </div>

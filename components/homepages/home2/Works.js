@@ -13,7 +13,7 @@ export default function Works() {
                                     <small data-aos="fade-right" data-aos-duration={200} className="overline">How it works</small>
                                     <h2 data-aos="fade-right" data-aos-duration={400}>Wealth Management for all Life Stages.
                                     </h2>
-                                    <p data-aos="fade-right" data-aos-duration={600}>Consultia Management’s financial advisors
+                                    <p data-aos="fade-right" data-aos-duration={600}>Coder's Hat Management’s financial advisors
                                         are backed by
                                         extensive training: Using in-depth
                                         financial advisory skills, we’re ready to help you achieve your unique wealth management

@@ -11,7 +11,7 @@ export default function Welcome() {
                             <div className="title">
                                 <h1 data-aos="fade-right" data-aos-duration={700}><span className="title-heilight">Build brand
                                     and</span> grow
-                                    your business with Consultia.</h1>
+                                    your business with Coder's Hat.</h1>
                                 <p data-aos="fade-right" data-aos-duration={1200}>When it comes to business, listen to Henry
                                     David Thoreau:
                                     things usually don’t happen overnight –

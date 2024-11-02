@@ -10,7 +10,7 @@ export default function Counter() {
                         <div className="col-lg-8 m-auto">
                             <div className="heading3 white-heading text-center">
                                 <small data-aos="fade-up" data-aos-duration={600} className="overline">Facts</small>
-                                <h2 data-aos="fade-up" data-aos-duration={800}>Why Consultia law is the best?</h2>
+                                <h2 data-aos="fade-up" data-aos-duration={800}>Why Coder's Hat law is the best?</h2>
                             </div>
                         </div>
                     </div>

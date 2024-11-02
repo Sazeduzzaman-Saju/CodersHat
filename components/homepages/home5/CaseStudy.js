@@ -11,7 +11,7 @@ export default function CaseStudy() {
                             <div className="hadding5">
                                 <span className="span font-f-5 font-18 line-height-18 weight-400" data-aos="fade-down" data-aos-duration={800}>Why Choose Us</span>
                                 <div className="space10" />
-                                <h1 className="font-f-6 font-30 font-lg-42 weight-600 line-height-38 line-height-lg-48 color4" data-aos="fade-down" data-aos-duration={1000}>Why you should choose consultia, there are
+                                <h1 className="font-f-6 font-30 font-lg-42 weight-600 line-height-38 line-height-lg-48 color4" data-aos="fade-down" data-aos-duration={1000}>Why you should choose Coder's Hat, there are
                                     tons of reasons.</h1>
                                 <div className="space10" />
                                 <p className="font-f-5 font-20 line-height-32 weight-400 color-p-4" data-aos="fade-down" data-aos-duration={1200}>Our team of insurance professionals have the knowledge, skills,

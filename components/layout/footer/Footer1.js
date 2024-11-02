@@ -75,10 +75,10 @@ export default function Footer1({ categoryData }) {
                     <div className="contact-icon">
                       <img src="/assets/img/icons/contact-phone2.svg" alt="" />
                     </div>
-                    <Link href={`tel:${categoryData?.primary_phone}`}>
+                    <Link href={`/tel:${categoryData?.primary_phone}` || "/"}>
                       Info: {categoryData?.primary_phone}
                     </Link>
-                    <Link href={`tel:${categoryData?.alternative_phone}`}>
+                    <Link href={`/tel:${categoryData?.alternative_phone}` || "/"}>
                       Support: {categoryData?.alternative_phone}
                     </Link>
                   </div>
@@ -88,10 +88,10 @@ export default function Footer1({ categoryData }) {
                     <div className="contact-icon">
                       <img src="/assets/img/icons/contact-email2.svg" alt="" />
                     </div>
-                    <Link href={`mailto:${categoryData?.contact_email}`}>
+                    <Link href={`mailto:${categoryData?.contact_email}` || "/"}>
                       {categoryData?.contact_email}
                     </Link>
-                    <Link href={`mailto:${categoryData?.support_email}`}>
+                    <Link href={`mailto:${categoryData?.support_email}` || "/"}>
                       {categoryData?.support_email}
                     </Link>
                   </div>
@@ -110,7 +110,7 @@ export default function Footer1({ categoryData }) {
                     <Link
                       data-bs-toggle="tooltip"
                       title="Linked in"
-                      href={categoryData?.linkedin_url}
+                      href={categoryData?.linkedin_url || "/"}
                     >
                       <i className="fa-brands fa-linkedin-in" />
                     </Link>
@@ -119,7 +119,7 @@ export default function Footer1({ categoryData }) {
                     <Link
                       data-bs-toggle="tooltip"
                       title="Facebook"
-                      href={categoryData?.facebook_url}
+                      href={categoryData?.facebook_url || "/"}
                     >
                       <i className="fa-brands fa-facebook-f" />
                     </Link>
@@ -128,7 +128,7 @@ export default function Footer1({ categoryData }) {
                     <Link
                       data-bs-toggle="tooltip"
                       title="Instagram"
-                      href={categoryData?.instagram_url}
+                      href={categoryData?.instagram_url || "/"}
                     >
                       <i className="fa-brands fa-instagram" />
                     </Link>
@@ -137,7 +137,7 @@ export default function Footer1({ categoryData }) {
                     <Link
                       data-bs-toggle="tooltip"
                       title="TikTok"
-                      href={categoryData?.whatsapp_url}
+                      href={categoryData?.whatsapp_url || "/"}
                     >
                       <i className="fa-brands fa-whatsapp" />
                     </Link>

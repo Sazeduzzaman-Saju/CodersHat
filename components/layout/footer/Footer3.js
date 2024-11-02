@@ -58,7 +58,7 @@ export default function Footer3() {
                                             <img src="/assets/img/icons/contact-email2.svg" alt="" />
                                         </div>
                                         <Link href="#">Contacthelp@Demoui.co</Link>
-                                        <Link href="#">Info@consultia.co</Link>
+                                        <Link href="#">Info@Coder's Hat.co</Link>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@ export default function Footer3() {
                     </div>
                     <div className="row align-items-center copyright2">
                         <div className="col-lg-6">
-                            <p>© 2023 Consultia by fleexstudio. All Rights Reserved.</p>
+                            <p>© 2023 Coder's Hat by fleexstudio. All Rights Reserved.</p>
                         </div>
                         <div className="col-lg-6">
                             <div className="social social2">

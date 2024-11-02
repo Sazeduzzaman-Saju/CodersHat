@@ -10,7 +10,6 @@ const SubscribeForm = () => {
 
     // Convert FormData to an object for easier logging
     const data = Object.fromEntries(formData.entries());
-    console.log(data); // Log the form data
 
     // try {
     //   // Send the data with POST method to the API

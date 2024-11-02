@@ -22,16 +22,14 @@ const SingleRecent = ({ allBlogs }) => {
         blogsData.map((blog, index) => (
           <div className="recent-post" key={index}>
             <div className="recent-post-content">
-              <Link href={`/blog-detail/${blog.slug}`}>{blog.title}</Link>
-              <div className="blog-date-time">
-                <ul className="blog-date">
-                  <li>
-                    <Link href={`/blog-detail/${blog.slug}`}>
-                      {formatDate(blog.created_at)}
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+              <Link href={`/blog-detail/${blog.slug}` || "/"}>
+                {blog.title}
+                <div className="blog-date-time">
+                  <ul className="blog-date">
+                    <li>{formatDate(blog.created_at)}</li>
+                  </ul>
+                </div>
+              </Link>
             </div>
             <div className="recent-img">
               <FallbackImages

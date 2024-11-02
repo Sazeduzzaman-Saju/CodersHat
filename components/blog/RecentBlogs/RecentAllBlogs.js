@@ -9,7 +9,6 @@ export async function generateStaticParams() {
 export default async function RecentAllBlogs() {
   let allBlogsData = await AllBlogsApi();
   let allBlogs = allBlogsData;
-  console.log(allBlogs, "asdadasd");
   return (
     <div>
       <RecentAllBlogsSingle allBlogs={allBlogs} />

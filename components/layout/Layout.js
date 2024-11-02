@@ -124,13 +124,13 @@ export default function Layout({
       {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
       {children}
 
-      {!footerStyle && <Footer1  categoryData={categoryData}/>}
-      {footerStyle === 1 && <Footer1  categoryData={categoryData}/>}
-      {footerStyle === 2 && <Footer2  categoryData={categoryData}/>}
-      {footerStyle === 3 && <Footer3  categoryData={categoryData}/>}
-      {footerStyle === 4 && <Footer4  categoryData={categoryData}/>}
-      {footerStyle === 5 && <Footer5  categoryData={categoryData}/>}
-      {footerStyle === 6 && <Footer6  categoryData={categoryData}/>}
+      {!footerStyle && <Footer1 categoryData={categoryData} />}
+      {footerStyle === 1 && <Footer1 categoryData={categoryData} />}
+      {footerStyle === 2 && <Footer2 categoryData={categoryData} />}
+      {footerStyle === 3 && <Footer3 categoryData={categoryData} />}
+      {footerStyle === 4 && <Footer4 categoryData={categoryData} />}
+      {footerStyle === 5 && <Footer5 categoryData={categoryData} />}
+      {footerStyle === 6 && <Footer6 categoryData={categoryData} />}
 
       <DemoSidebar />
       <BackToTop scroll={scroll} />

@@ -11,7 +11,7 @@ export default function Blog() {
                             <div className="heading4 text-center">
                                 <small data-aos="fade-up" data-aos-duration={400} className="overline">Our Blog</small>
                                 <h2 data-aos="fade-up" data-aos-duration={600}>Take a look at the latest articles from
-                                    Consultia.</h2>
+                                    Coder's Hat.</h2>
                             </div>
                         </div>
                     </div>

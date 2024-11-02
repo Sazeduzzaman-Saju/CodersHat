@@ -39,7 +39,7 @@ export default function Footer4() {
                                     </ul>
                                 </div>
                                 <div className="copyright">
-                                    <p>© 2023 Consultia Limited.</p>
+                                    <p>© 2023 Coder's Hat Limited.</p>
                                 </div>
                             </div>
                         </div>

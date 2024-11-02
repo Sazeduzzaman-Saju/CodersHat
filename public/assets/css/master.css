@@ -1,6 +1,6 @@
 /*
 ============================
-Name:  Consultia - Multipurpase Consulting Template
+Name:  Coder's Hat - Multipurpase Consulting Template
 Version: 1.0.0
 Description:
 Author: Sujon mahamud
@@ -2341,7 +2341,7 @@ img {
 }
 
 .logo {
-  margin-right: 30px;
+  margin-right: 175px;
 }
 
 .header-absolute {
@@ -2384,7 +2384,7 @@ img {
   text-align: center;
   line-height: 50px;
   border-radius: 50px;
-  margin-top: -25px;
+  margin-top: -18px;
   border: 1px solid transparent;
   transition: all 0.3s;
 }

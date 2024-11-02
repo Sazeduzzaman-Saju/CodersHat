@@ -63,7 +63,7 @@ export default function CaseStudy() {
                             <div className="heading2 white-heading text-center">
                                 <small data-aos="fade-up" data-aos-duration={600} className="heading-top"><img src="/assets/img/icons/hands.svg" alt="" />We Are Here For Your Tax
                                     Relief.</small>
-                                <h2 data-aos="fade-up" data-aos-duration={800}><span className="heilight-left">Consultia</span> tax
+                                <h2 data-aos="fade-up" data-aos-duration={800}><span className="heilight-left">Coder's Hat</span> tax
                                     is built for
                                     small business.</h2>
                             </div>

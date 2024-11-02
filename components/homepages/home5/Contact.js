@@ -34,7 +34,7 @@ export default function Contact() {
                     data-aos="fade-down"
                     data-aos-duration={1000}
                   >
-                    Why you should choose consultia, there are tons of reasons.
+                    Why you should choose Coder's Hat, there are tons of reasons.
                   </h1>
                   <div className="space10" />
                   <p

@@ -44,7 +44,7 @@ const AllTeams = ({ teamData }) => {
                                   <Link
                                     data-bs-toggle="tooltip"
                                     title="Linked in"
-                                    href={member.linked_in || "No Linked In URL"}
+                                    href={member.linked_in || "Linked"}
                                   >
                                     <i className="fa-brands fa-linkedin-in" />
                                   </Link>
@@ -53,7 +53,7 @@ const AllTeams = ({ teamData }) => {
                                   <Link
                                     data-bs-toggle="tooltip"
                                     title="Facebook"
-                                    href={member.linked_in || "No Facebook In URL"}
+                                    href={member.linked_in || "Facebook"}
                                   >
                                     <i className="fa-brands fa-facebook-f" />
                                   </Link>
@@ -62,7 +62,7 @@ const AllTeams = ({ teamData }) => {
                                   <Link
                                     data-bs-toggle="tooltip"
                                     title="Instagram"
-                                    href={member.linked_in || "No Instagram In URL"}
+                                    href={member.linked_in || "Instagram"}
                                   >
                                     <i className="fa-brands fa-instagram" />
                                   </Link>
@@ -71,7 +71,7 @@ const AllTeams = ({ teamData }) => {
                                   <Link
                                     data-bs-toggle="tooltip"
                                     title="Github"
-                                    href={member.linked_in || "No github In URL"}
+                                    href={member.linked_in || "github"}
                                   >
                                     <i className="fa-brands fa-github" />
                                   </Link>

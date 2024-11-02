@@ -8,7 +8,8 @@ const AllBlogs = ({ blogData }) => {
       {blogData && blogData.length > 0 ? (
         blogData.map((blog, index) => (
           <div className="col-lg-6" key={index}>
-            <Link href={`/blog-detail/${blog.slug}`}>
+            <div>
+            <Link href={`/blog-detail/${blog.slug}` || "/"}>
               <div className="single-blog blog-md">
                 <div className="blog-img">
                   <FallbackImages
@@ -29,6 +30,7 @@ const AllBlogs = ({ blogData }) => {
                 <p>{blog.header}</p>
               </div>
             </Link>
+            </div>
           </div>
         ))
       ) : (

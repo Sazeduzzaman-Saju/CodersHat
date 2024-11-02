@@ -43,7 +43,7 @@ const BlogsCards = ({ allBlogs }) => {
               data-aos-duration={600 + index * 200} // Increment animation delay
             >
               <div className="single-blog blog-sm">
-                <Link href={`/blog-detail/${blog.slug}`}>
+                <Link href={`/blog-detail/${blog.slug}` || "/"}>
                   <div className="blog-img">
                     <FallbackImages
                       className="img-fluid"

@@ -3,7 +3,6 @@ import Link from "next/link";
 import React from "react";
 
 const RecentAllBlogsSingle = ({ allBlogs }) => {
-  console.log(allBlogs, "blogs All recent");
   return (
     <div className="row">
       {allBlogs && allBlogs.length > 0 ? (
@@ -11,7 +10,7 @@ const RecentAllBlogsSingle = ({ allBlogs }) => {
           <div className="col-md-6 col-lg-4">
             <div className="single-blog blog-md">
               <div className="blog-img">
-                <Link href={`/blog-detail/${blog.slug}`}>
+                <Link href={`/blog-detail/${blog.slug}` || "/"}>
                   <FallbackImages
                     className="img-fluid"
                     src={`https://backoffice.codershatbd.com/storage/${blog.image}`}

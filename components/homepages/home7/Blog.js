@@ -13,7 +13,7 @@ export default function Blog() {
                                     Your Tax Relief.</small>
                                 <h2 data-aos="fade-up" data-aos-duration={800}>
                                     <span className="heilight-left">Take</span> a look at the latest
-                                    articles from Consultia Tax.
+                                    articles from Coder's Hat Tax.
                                 </h2>
                             </div>
                         </div>

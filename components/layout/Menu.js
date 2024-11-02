@@ -26,7 +26,7 @@ export default function Menu() {
           <Link href="/about-us">About Us</Link>
         </li>
         <li className="mega-menu-parrent">
-          <Link href="javascript:void(0)">Services</Link>
+          <Link href="/">Services</Link>
           <ul className="theme-mega-menu">
             <li className="mega-menu">
               <div className="single-mega-menu">

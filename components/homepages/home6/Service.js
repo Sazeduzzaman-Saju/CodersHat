@@ -9,7 +9,7 @@ export default function Service() {
                     <div className="row">
                         <div className="col-lg-7 m-auto text-center">
                             <div className="hadding6" data-aos="fade-up" data-aos-duration={700}>
-                                <h1 className="font-f-7">Consultia offers multiple services <br /><span className="after6">throughout the
+                                <h1 className="font-f-7">Coder's Hat offers multiple services <br /><span className="after6">throughout the
                                     year.</span></h1>
                             </div>
                         </div>

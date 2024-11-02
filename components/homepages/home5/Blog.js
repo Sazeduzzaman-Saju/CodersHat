@@ -12,7 +12,7 @@ export default function Blog() {
                                 <span className="span font-f-5 font-18 line-height-18 weight-400" data-aos="fade-up" data-aos-duration={800}>Our Blog</span>
                                 <div className="space10" />
                                 <h1 className="font-f-6 font-30 font-lg-42 weight-600 line-height-38 line-height-lg-48 color4" data-aos="fade-up" data-aos-duration={1000}>Take a look at the latest articles from
-                                    Consultia.</h1>
+                                    Coder's Hat.</h1>
                             </div>
                         </div>
                     </div>

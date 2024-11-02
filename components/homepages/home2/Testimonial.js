@@ -39,7 +39,7 @@ export default function Testimonial() {
                                         <div className="testimonial-icon">
                                             <img src="/assets/img/icons/quote-2.png" alt="" />
                                         </div>
-                                        <p>Consultia financial Advisor firm is wonderful. I have had the chance to work with
+                                        <p>Coder's Hat financial Advisor firm is wonderful. I have had the chance to work with
                                             three of the
                                             lawyers and they all have been wonderful. They will tell you when you need a lawyer
                                             and when you
@@ -60,7 +60,7 @@ export default function Testimonial() {
                                         <div className="testimonial-icon">
                                             <img src="/assets/img/icons/quote-2.png" alt="" />
                                         </div>
-                                        <p>Consultia financial Advisor firm is wonderful. I have had the chance to work with
+                                        <p>Coder's Hat financial Advisor firm is wonderful. I have had the chance to work with
                                             three of the
                                             lawyers and they all have been wonderful. They will tell you when you need a lawyer
                                             and when you
@@ -81,7 +81,7 @@ export default function Testimonial() {
                                         <div className="testimonial-icon">
                                             <img src="/assets/img/icons/quote-2.png" alt="" />
                                         </div>
-                                        <p>Consultia financial Advisor firm is wonderful. I have had the chance to work with
+                                        <p>Coder's Hat financial Advisor firm is wonderful. I have had the chance to work with
                                             three of the
                                             lawyers and they all have been wonderful. They will tell you when you need a lawyer
                                             and when you

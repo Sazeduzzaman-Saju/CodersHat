@@ -58,7 +58,7 @@ export default function Footer5() {
                                             <img src="/assets/img/icons/contact-email2.svg" alt="" />
                                         </div>
                                         <Link className="font-f-5" href="#">Contacthelp@Demoui.co</Link>
-                                        <Link className="font-f-5" href="#">Info@consultia.co</Link>
+                                        <Link className="font-f-5" href="#">Info@Coder's Hat.co</Link>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@ export default function Footer5() {
                     </div>
                     <div className="row align-items-center copyright2">
                         <div className="col-lg-6">
-                            <p className="font-f-5">© 2023 Consultia by fleexstudio. All Rights Reserved.</p>
+                            <p className="font-f-5">© 2023 Coder's Hat by fleexstudio. All Rights Reserved.</p>
                         </div>
                         <div className="col-lg-6 text-right">
                             <div className="social social5">

@@ -29,7 +29,7 @@ export default function Contact() {
                                     <small data-aos="fade-left" data-aos-duration={400} className="overline">Free
                                         Consultation</small>
                                     <h2 data-aos="fade-left" data-aos-duration={600}>Contact us now for a free consultation</h2>
-                                    <p data-aos="fade-left" data-aos-duration={800}>Consultia can handle tech advisory help
+                                    <p data-aos="fade-left" data-aos-duration={800}>Coder's Hat can handle tech advisory help
                                         decide upon the
                                         project rationale. Leave your contacts
                                         below and we’ll get back to you within 24 hours.</p>

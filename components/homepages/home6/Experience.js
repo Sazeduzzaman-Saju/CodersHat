@@ -20,7 +20,7 @@ export default function Experience() {
                         <div className="col-lg-6">
                             <div className=" experience-hadding">
                                 <div className="hadding6">
-                                    <h1 className="font-f-7" data-aos="fade-left" data-aos-duration={900}>Consultia has a decade of
+                                    <h1 className="font-f-7" data-aos="fade-left" data-aos-duration={900}>Coder's Hat has a decade of
                                         experience helping the community.</h1>
                                     <div className="space20" />
                                     <h4><Link href="#" className="font-f-7" data-aos="fade-left" data-aos-duration={1000}>Years of

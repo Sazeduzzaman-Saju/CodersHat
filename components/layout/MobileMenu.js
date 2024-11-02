@@ -172,7 +172,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                         <img src="/assets/img/icons/contact-email4.svg" alt="" />
                                     </div>
                                     <Link href="#">Contacthelp@Demoui.co</Link>
-                                    <Link href="#">Info@consultia.co</Link>
+                                    <Link href="#">Info@Coder's Hat.co</Link>
                                 </div>
                             </div>
                         </div>

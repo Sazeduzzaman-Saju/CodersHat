@@ -7,7 +7,6 @@ export default function Header1({
   handleMobileMenu,
   categoryData,
 }) {
-  console.log(categoryData,"data")
   return (
     <>
       <header
@@ -31,7 +30,7 @@ export default function Header1({
                     </Link>
                   </div>
                   <div className="main-menu">
-                    <div className="menu-wrap">
+                    <div className="menu-wrap me-auto">
                       <Menu />
                     </div>
                   </div>
@@ -43,7 +42,7 @@ export default function Header1({
                     </div>
                     <div className="quick_contact_content">
                       <small>{categoryData?.contact_email}</small>
-                      <Link href={`mailto:${categoryData?.primary_phone}`}>
+                      <Link href={`mailto:${categoryData?.primary_phone}` || "/"}>
                         {categoryData?.primary_phone}
                       </Link>
                     </div>

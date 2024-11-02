@@ -48,7 +48,7 @@ export default function Testimaonial() {
                                                     <img src="/assets/img/icons/home4-testimonial-icon.svg" alt="" />
                                                 </div>
                                                 <p className="font-20 weight-400 line-height-34 font-f-5 font-w" style={{ fontStyle: 'italic' }}>
-                                                    “ Consultia's unique insurance offering gives us peace
+                                                    “ Coder's Hat's unique insurance offering gives us peace
                                                     of mind knowing that our operations are covered while
                                                     also allowing us to control our costs. Onboarding our
                                                     entire fleet was seamless and intuitive, and now we can
@@ -70,7 +70,7 @@ export default function Testimaonial() {
                                                     <img src="/assets/img/icons/home4-testimonial-icon.svg" alt="" />
                                                 </div>
                                                 <p className="font-20 weight-400 line-height-34 font-f-5 font-w" style={{ fontStyle: 'italic' }}>
-                                                    “ Consultia's unique insurance offering gives us peace
+                                                    “ Coder's Hat's unique insurance offering gives us peace
                                                     of mind knowing that our operations are covered while
                                                     also allowing us to control our costs. Onboarding our
                                                     entire fleet was seamless and intuitive, and now we can
@@ -92,7 +92,7 @@ export default function Testimaonial() {
                                                     <img src="/assets/img/icons/home4-testimonial-icon.svg" alt="" />
                                                 </div>
                                                 <p className="font-20 weight-400 line-height-34 font-f-5 font-w" style={{ fontStyle: 'italic' }}>
-                                                    “ Consultia's unique insurance offering gives us peace
+                                                    “ Coder's Hat's unique insurance offering gives us peace
                                                     of mind knowing that our operations are covered while
                                                     also allowing us to control our costs. Onboarding our
                                                     entire fleet was seamless and intuitive, and now we can

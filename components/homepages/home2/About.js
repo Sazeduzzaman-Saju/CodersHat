@@ -31,7 +31,7 @@ export default function About() {
                             <div className="heading4 no-margin-heading">
                                 <small data-aos="fade-left" data-aos-duration={400} className="overline">About us</small>
                                 <h2 data-aos="fade-left" data-aos-duration={600}>Feel confident in your financial future with
-                                    consultia.
+                                    Coder's Hat.
                                 </h2>
                                 <p data-aos="fade-left" data-aos-duration={800}>We focus on people – from our first meeting with
                                     you to the

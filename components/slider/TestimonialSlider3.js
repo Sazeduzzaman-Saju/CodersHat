@@ -49,7 +49,7 @@ export default function TestimonialSlider3() {
                         <img src="/assets/img/icons/quote-1.png" alt="" />
                     </div>
                     <p>
-                        “Consultia law firm is wonderful. I have had the chance to
+                        “Coder's Hat law firm is wonderful. I have had the chance to
                         work with three of the lawyers and they all have been
                         wonderful. They will tell you when you need a lawyer and when
                         you don't. They actually try to save you money. They respond
@@ -81,7 +81,7 @@ export default function TestimonialSlider3() {
                         <img src="/assets/img/icons/quote-1.png" alt="" />
                     </div>
                     <p>
-                        “Consultia law firm is wonderful. I have had the chance to
+                        “Coder's Hat law firm is wonderful. I have had the chance to
                         work with three of the lawyers and they all have been
                         wonderful. They will tell you when you need a lawyer and when
                         you don't. They actually try to save you money. They respond
@@ -113,7 +113,7 @@ export default function TestimonialSlider3() {
                         <img src="/assets/img/icons/quote-1.png" alt="" />
                     </div>
                     <p>
-                        “Consultia law firm is wonderful. I have had the chance to
+                        “Coder's Hat law firm is wonderful. I have had the chance to
                         work with three of the lawyers and they all have been
                         wonderful. They will tell you when you need a lawyer and when
                         you don't. They actually try to save you money. They respond
@@ -145,7 +145,7 @@ export default function TestimonialSlider3() {
                         <img src="/assets/img/icons/quote-1.png" alt="" />
                     </div>
                     <p>
-                        “Consultia law firm is wonderful. I have had the chance to
+                        “Coder's Hat law firm is wonderful. I have had the chance to
                         work with three of the lawyers and they all have been
                         wonderful. They will tell you when you need a lawyer and when
                         you don't. They actually try to save you money. They respond

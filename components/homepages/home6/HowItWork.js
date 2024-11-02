@@ -9,7 +9,7 @@ export default function HowItWork() {
                     <div className="row">
                         <div className="col-lg-6 m-auto text-center">
                             <div className="hadding6-w">
-                                <h1 className="font-f-7" data-aos="fade-up" data-aos-duration={900}>Consultia services specializes
+                                <h1 className="font-f-7" data-aos="fade-up" data-aos-duration={900}>Coder's Hat services specializes
                                     <br />
                                     <span className="after6">
                                         in Tax Preparation.

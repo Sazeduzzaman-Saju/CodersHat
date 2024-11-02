@@ -32,9 +32,9 @@ export default function Page() {
                       <p className="font-f-3">EMAIL US</p>
                       <Link
                         className="font-f-3"
-                        href="/mailto:hello@consultia.com"
+                        href="/mailto:hello@Coder's Hat.com"
                       >
-                        hello@consultia.com
+                        hello@Coder's Hat.com
                       </Link>
                     </div>
                   </div>
