@@ -194,7 +194,7 @@ export default function Page() {
                                     <div className="heading2 mr50">
                                         <small className="heading-top inner-heading-top"><img src="/assets/img/icons/hands.svg" alt="" />FAQ</small>
                                         <h2>We Handle The Most Tedious Bookkeeping Tasks of Your Business Operations.</h2>
-                                        <p>Experienced, knowledgeable professionals in Property Tax Consulting. Our team of Property Tax Consultants
+                                        <p>Experienced, knowledgeable professionals in Property Coders Hat. Our team of Property Tax Consultants
                                             is committed to saving you money by obtaining the lowest possible assessed value for your commercial or
                                             residential properties.
                                         </p>

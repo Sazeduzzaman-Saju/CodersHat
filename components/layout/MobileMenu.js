@@ -46,16 +46,16 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                             <span className={isActive.key == 1 ? "submenu-button submenu-opened" : "submenu-button"} onClick={() => handleToggle(1)}><em /></span>
                             <ul className="sub-menu" style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
 
-                                <li><Link href="/">Tax Consulting 1</Link></li>
-                                <li><Link href="/index-6">Tax Consulting 2</Link></li>
+                                <li><Link href="/">Coders Hat 1</Link></li>
+                                <li><Link href="/index-6">Coders Hat 2</Link></li>
                                 <li><Link href="/index-2">Financial Advisor</Link></li>
                                 <li><Link href="/index-3">Low Consulting</Link></li>
                                 <li><Link href="/index-4">Business Consulting</Link></li>
                                 <li><Link href="/index-5">Insurance Consulting</Link></li>
                                 <li><Link href="/index-rtl-1">RTL</Link></li>
 
-                                <li><Link href="/single-index-1">Tax Consulting 1</Link></li>
-                                <li><Link href="/single-index-6">Tax Consulting 2</Link></li>
+                                <li><Link href="/single-index-1">Coders Hat 1</Link></li>
+                                <li><Link href="/single-index-6">Coders Hat 2</Link></li>
                                 <li><Link href="/single-index-2">Financial Advisor</Link></li>
                                 <li><Link href="/single-index-3">Low Consulting</Link></li>
                                 <li><Link href="/single-index-4">Business Consulting</Link></li>

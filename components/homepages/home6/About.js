@@ -24,7 +24,7 @@ export default function About() {
                                 </h1>
                                 <div className="space10" />
                                 <p className="font-f-7" data-aos="fade-left" data-aos-duration={800}>Experienced, knowledgeable
-                                    professionals in Property Tax Consulting. Our team of Property Tax Consultants is committed
+                                    professionals in Property Coders Hat. Our team of Property Tax Consultants is committed
                                     to saving you money by obtaining the lowest possible assessed value for your commercial or
                                     residential properties.</p>
                                 <div className="space30" />

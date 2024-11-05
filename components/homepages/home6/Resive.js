@@ -13,7 +13,7 @@ export default function Resive() {
                                     compensation your <br /> <span className="after6">hard work deserves.</span></h1>
                                 <div className="space10" />
                                 <p className="font-f-7" data-aos="fade-right" data-aos-duration={900}>Experienced, knowledgeable
-                                    professionals in Property Tax Consulting. Our team of Property Tax Consultants is committed
+                                    professionals in Property Coders Hat. Our team of Property Tax Consultants is committed
                                     to saving you money by obtaining the lowest possible assessed value for your commercial or
                                     residential properties.</p>
                                 <div className="space30" />

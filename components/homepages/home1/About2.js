@@ -81,7 +81,7 @@ export default function About2() {
                                         Tax
                                         Relief.</small>
                                     <h2>We Handle The Most Tedious Bookkeeping Tasks of Your Business Operations.</h2>
-                                    <p>Experienced, knowledgeable professionals in Property Tax Consulting. Our team of Property
+                                    <p>Experienced, knowledgeable professionals in Property Coders Hat. Our team of Property
                                         Tax
                                         Consultants is committed to saving you money by obtaining the lowest possible assessed
                                         value for your

@@ -27,7 +27,7 @@ export default function DemoSidebar() {
                                     </div>
                                 </div>
                                 <div className="demo-item-content">
-                                    <Link href="/">Tax Consulting 1</Link>
+                                    <Link href="/">Coders Hat 1</Link>
                                 </div>
                             </div>
                             <div className="single-demo-sidebar-item">
@@ -39,7 +39,7 @@ export default function DemoSidebar() {
                                     </div>
                                 </div>
                                 <div className="demo-item-content">
-                                    <Link href="/index-6">Tax Consulting 2</Link>
+                                    <Link href="/index-6">Coders Hat 2</Link>
                                 </div>
                             </div>
                             <div className="single-demo-sidebar-item">
