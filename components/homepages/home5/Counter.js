@@ -32,7 +32,7 @@ export default function Counter() {
                           <CounterUp count={30} />+
                         </h1>
                         <p className="font-f-5 font-16 line-height-16 color-p-4 weight-400">
-                          Locations Available
+                          Project Complete
                         </p>
                       </div>
                     </div>
@@ -50,7 +50,7 @@ export default function Counter() {
                           <CounterUp count={30} />+
                         </h1>
                         <p className="font-f-5 font-16 line-height-16 color-p-4 weight-400">
-                          Locations Available
+                          Total Client
                         </p>
                       </div>
                     </div>
@@ -69,7 +69,7 @@ export default function Counter() {
                           K+
                         </h1>
                         <p className="font-f-5 font-16 line-height-16 color-p-4 weight-400">
-                          Locations Available
+                          Companies
                         </p>
                       </div>
                     </div>
@@ -88,7 +88,7 @@ export default function Counter() {
                           K+
                         </h1>
                         <p className="font-f-5 font-16 line-height-16 color-p-4 weight-400">
-                          Locations Available
+                          Success
                         </p>
                       </div>
                     </div>

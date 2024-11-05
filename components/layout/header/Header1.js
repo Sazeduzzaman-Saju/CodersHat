@@ -23,7 +23,7 @@ export default function Header1({
                   <div className="logo">
                     <Link href="/">
                       <img
-                        height={80}
+                        height={50}
                         src={`https://backoffice.codershatbd.com/storage/${categoryData?.site_logo_black}`}
                         alt=""
                       />

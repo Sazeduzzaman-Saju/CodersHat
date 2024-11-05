@@ -1458,8 +1458,15 @@ margin: 45px 0;
   justify-content: center;
   padding-top: 20px;
 }
-}
 
+}
+.blog-box-h{
+  background-color: transparent;
+  background-image: url('../img/bg/con-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 .header-6 .main-menu ul li a {
   background: none;
 }

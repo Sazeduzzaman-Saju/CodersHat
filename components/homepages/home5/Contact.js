@@ -4,21 +4,21 @@ export default function Contact() {
       <div className="home4-contact section-padding">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-md-5">
+            <div className="col-md-6">
               <div className="choos-images">
                 <div
                   className="choose-img-1"
                   data-aos="fade-right"
                   data-aos-duration={1000}
                 >
-                  <img src="/assets/img/case-study/choose-img4.png" alt="" />
+                  <img src="/assets/img/case-study/contact.webp" alt="" />
                 </div>
                 <div className="choose-img-3">
                   <img src="/assets/img/shapes/home4-img-shap.svg" alt="" />
                 </div>
               </div>
             </div>
-            <div className="col-lg-7">
+            <div className="col-lg-6">
               <div className="contact-form-2 ml50">
                 <div className="hadding5">
                   <span
@@ -26,7 +26,7 @@ export default function Contact() {
                     data-aos="fade-down"
                     data-aos-duration={800}
                   >
-                    Why Choose Us
+                    Expert Guidance, Just a Click Away
                   </span>
                   <div className="space10" />
                   <h1
@@ -34,7 +34,7 @@ export default function Contact() {
                     data-aos="fade-down"
                     data-aos-duration={1000}
                   >
-                    Why you should choose Coder's Hat, there are tons of reasons.
+                    Ready to Boost Your Business? Book Now!
                   </h1>
                   <div className="space10" />
                   <p
@@ -42,8 +42,9 @@ export default function Contact() {
                     data-aos="fade-down"
                     data-aos-duration={1200}
                   >
-                    Our team of insurance professionals have the knowledge,
-                    skills, markets and desire necessary to provide you.
+                    From stunning designs to innovative software and digital
+                    marketing strategies, Coder's Hat is here to help you
+                    succeed. Schedule your appointment now to get started!
                   </p>
                 </div>
                 <div className="space20" />
@@ -93,7 +94,7 @@ export default function Contact() {
                         name="message"
                         id="message"
                         cols={30}
-                        rows={10}
+                        rows={5}
                         placeholder="How can we help you?"
                       />
                     </div>

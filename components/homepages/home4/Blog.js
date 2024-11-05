@@ -10,7 +10,7 @@ export default async function Blog() {
   let allBlogs = allBlogsData;
   return (
     <>
-      <div className="blog-area section-padding">
+      <div className="blog-area section-padding blog-box-h">
         <BlogsCards allBlogs={allBlogs} />
       </div>
     </>

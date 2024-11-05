@@ -3,7 +3,7 @@ export default function Welcome() {
     <>
       <div
         className="home6-full-header bg-cover"
-        style={{ backgroundImage: "url(assets/img/bg/hero6-bg.png)" }}
+        style={{ backgroundImage: "url(assets/img/bg/hero-main.png)" }}
       >
         <div className="welcome-4 home4-bg position-relative" id="home">
           <div className="container">
@@ -15,16 +15,17 @@ export default function Welcome() {
                     data-aos="fade-right"
                     data-aos-duration={800}
                   >
-                    Highest Quality Insurance at the lowest rates available.
+                    High-Quality Digital Services Across All Platforms at Great
+                    Prices.
                   </h1>
                   <p
                     className="font-f-5"
                     data-aos="fade-right"
                     data-aos-duration={900}
                   >
-                    We have access to the majority of the first-rate insurance
-                    companies in Texas to offer you the best coverage at the
-                    lowest available price.
+                    Our expert team specializes in software development, graphic
+                    design, SEO, and digital marketing, ensuring that you
+                    receive comprehensive solutions tailored to your goals
                   </p>
                   <div className="space30" />
                   <div className="home4-header-input-all">
