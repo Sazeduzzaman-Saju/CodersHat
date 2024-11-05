@@ -13,11 +13,6 @@ export default function Counter() {
           <div className="row">
             <div className="col-md-12">
               <div className="home4-counters-all">
-                <div className="text-center">
-                  <h6 className="color4 font-f-5 weight-700 font-18 color4 line-height-18">
-                    You can count on us
-                  </h6>
-                </div>
                 <div className="row">
                   <div className="col-lg-3">
                     <div className="home4-single-counter">

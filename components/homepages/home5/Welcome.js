@@ -55,7 +55,7 @@ export default function Welcome() {
                     data-aos="zoom-out"
                     data-aos-duration={1000}
                   >
-                    <img src="/assets/img/image/home6-main-header.png" alt />
+                    <img src="/assets/img/HeroBanner/hero-banner.png" alt />
                   </div>
                   <div
                     className="home6-header-img3 aniamtion-key-1 aos-init aos-animate"

@@ -51,21 +51,22 @@ export default function Page() {
           <div class="container">
             <div class="row">
               <div class="col-12">
-                <div className="text-center mx-auto w-50 py-5">
+                <div className="text-center mx-auto py-5">
                   <small>Everything simplified</small>
                   <h1
-                    className="font-f-6"
+                    className="font-f-6 pt-3"
                     data-aos="fade-right"
+                    style={{fontSize:" 50px"}}
                     data-aos-duration={800}
                   >
-                    Unite employees with <br /> their specific{" "}
-                    <span style={{ borderBottom: "5px solid #7977c6" }}>
+                    Unite employees with their specific
+                    <span className="ps-3" style={{ borderBottom: "5px solid #7977c6" }}>
                       IT needs
                     </span>
                   </h1>
-                  <p data-aos="fade-right" data-aos-duration={900}>
+                  <p className="pt-3" data-aos="fade-right" data-aos-duration={900}>
                     Reduce IT noise and information chaos by uniting everything
-                    under a single digital experience, and give your employees
+                    under a single digital experience<br/> and give your employees
                     the tools to stay productive wherever they work.
                   </p>
                 </div>
