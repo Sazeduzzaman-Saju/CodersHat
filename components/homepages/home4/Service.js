@@ -35,10 +35,7 @@ export default function Service() {
                   <p>
                     Coder's Hat has a team of skilled and trained programmers
                     who will consolidate all the essential functions of your
-                    business into a customized website tailored to your specific
-                    needs. This will help streamline operations, enhance
-                    customer engagement, and support the smooth, efficient
-                    growth of your business.
+                    business into a customized website tailored.
                   </p>
                 </div>
                 <Link href="#" className="theme-btn-6">
@@ -60,10 +57,7 @@ export default function Service() {
                   <p>
                     Once launched, a website can no longer be ignored. In fact,
                     this is when our DevOps and support teams step in to keep
-                    your website secure and up to date. Whether you need
-                    frequent updates, security monitoring, or performance
-                    optimization, we're here to ensure your website runs
-                    smoothly.
+                    your website secure and up to date. 
                   </p>
                 </div>
                 <Link href="#" className="theme-btn-6">
@@ -85,10 +79,7 @@ export default function Service() {
                   <p>
                     Responsive design is essential for delivering a seamless
                     user experience across all devices. At Coder's Hat, we focus
-                    on creating intuitive UI/UX designs that adapt to various
-                    screen sizes and orientations, ensuring your website looks
-                    and functions beautifully on desktops, tablets, and
-                    smartphones.
+                    on creating intuitive UI/UX designs.
                   </p>
                 </div>
                 <Link href="#" className="theme-btn-6">
@@ -110,10 +101,7 @@ export default function Service() {
                   <p>
                     At Coder's Hat, we specialize in software development
                     tailored to meet your unique business needs. Our team of
-                    experienced developers utilizes the latest technologies and
-                    best practices to build robust, scalable, and efficient
-                    software solutions. From custom applications to system
-                    integrations.
+                    experienced developers utilizes.
                   </p>
                 </div>
                 <Link href="#" className="theme-btn-6">
@@ -135,10 +123,7 @@ export default function Service() {
                   <p>
                     Quality Assurance is a critical component of our development
                     process at Coder's Hat. We are committed to delivering
-                    flawless software by implementing rigorous testing protocols
-                    and industry best practices. Our QA team meticulously
-                    evaluates every aspect of your application, from
-                    functionality
+                    flawless software by implementing rigorous.
                   </p>
                 </div>
                 <Link href="#" className="theme-btn-6">
@@ -156,14 +141,11 @@ export default function Service() {
                   <img src="/assets/img/icons/service6.png" alt="" />
                 </div>
                 <div className="service-content">
-                  <h3>Process & Complete Development</h3>
+                  <h3>Process & Complete Projects</h3>
                   <p>
                     At Coder's Hat, our process for complete development is
                     designed to ensure that your project is executed smoothly
-                    from start to finish. We begin with an in-depth consultation
-                    to understand your requirements, followed by a thorough
-                    planning phase where we outline the project's scope and
-                    timeline.
+                    from start to finish an in-depth consultation.
                   </p>
                 </div>
                 <Link href="#" className="theme-btn-6">

@@ -37,8 +37,9 @@ export default function Header1({
                 </div>
                 <div className="desktop-info">
                   <div className="quick_contact">
-                    <div className="quick_contact_icon bg-27">
-                      <i className="fa-light fa-phone" />
+                    <div className="quick_contact_icon">
+                      {/* <i className="fa-light fa-phone" /> */}
+                      <img src="/assets/img/bg/call.gif"/>
                     </div>
                     <div className="quick_contact_content">
                       <small>{categoryData?.contact_email}</small>

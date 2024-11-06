@@ -26,7 +26,7 @@ export default function Counter() {
                         <h1 className="font-f-6 font-32 line-height-32 weight-600 color4">
                           <CounterUp count={30} />+
                         </h1>
-                        <p className="font-f-5 font-16 line-height-16 color-p-4 weight-400">
+                        <p className="font-f-5 font-16 line-height-16 color-p-4 weight-400 mb-0">
                           Project Complete
                         </p>
                       </div>
@@ -44,7 +44,7 @@ export default function Counter() {
                         <h1 className="font-f-6 font-32 line-height-32 weight-600 color4">
                           <CounterUp count={30} />+
                         </h1>
-                        <p className="font-f-5 font-16 line-height-16 color-p-4 weight-400">
+                        <p className="font-f-5 font-16 line-height-16 color-p-4 weight-400 mb-0">
                           Total Client
                         </p>
                       </div>
@@ -63,7 +63,7 @@ export default function Counter() {
                           <CounterUp count={60} />
                           K+
                         </h1>
-                        <p className="font-f-5 font-16 line-height-16 color-p-4 weight-400">
+                        <p className="font-f-5 font-16 line-height-16 color-p-4 weight-400 mb-0">
                           Companies
                         </p>
                       </div>
@@ -82,7 +82,7 @@ export default function Counter() {
                           <CounterUp count={12} />
                           K+
                         </h1>
-                        <p className="font-f-5 font-16 line-height-16 color-p-4 weight-400">
+                        <p className="font-f-5 font-16 line-height-16 color-p-4 weight-400 mb-0">
                           Success
                         </p>
                       </div>

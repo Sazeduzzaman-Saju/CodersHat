@@ -11,12 +11,11 @@ export default function Welcome() {
               <div className="col-lg-6">
                 <div className="titel4-main ">
                   <h1
-                    className="font-f-6"
+                    className="font-f-1"
                     data-aos="fade-right"
                     data-aos-duration={800}
                   >
-                    High-Quality Digital Services Across All Platforms at Great
-                    Prices.
+                    Digital Services Across All Platforms
                   </h1>
                   <p
                     className="font-f-5"
@@ -35,9 +34,8 @@ export default function Welcome() {
                       data-aos-duration={800}
                     >
                       <form action="#">
-                        <input type="number" placeholder="Enter Zip Code" />
-                        <button className="font-f-5 weight-400 theme-btn-18">
-                          Request a Quote{" "}
+                        <button className="font-f-5 weight-400 theme-btn-18 mt-4">
+                          Contact Us
                           <i className="fa-solid fa-arrow-right" />
                         </button>
                       </form>
@@ -51,25 +49,26 @@ export default function Welcome() {
                     <img src="/assets/img/shapes/header6-main-shpe.svg" alt />
                   </div>
                   <div
-                    className="home6-header-img2 aos-init aos-animate"
+                    className="home6-header-img2 svg-her-box aos-init aos-animate"
                     data-aos="zoom-out"
                     data-aos-duration={1000}
                   >
-                    <img src="/assets/img/HeroBanner/hero-banner.png" alt />
+                    {/* <img src="/assets/img/HeroBanner/hero-banner.png" alt /> */}
+                    <img className="web-development-gif img-fluid" src="/assets/img/bg/web_development.gif" alt />
                   </div>
                   <div
-                    className="home6-header-img3 aniamtion-key-1 aos-init aos-animate"
+                    className="home6-header-img3 aniamtion-key-1 aos-init aos-animate graphic-design"
                     data-aos="zoom-out"
                     data-aos-duration={1200}
                   >
-                    <img src="/assets/img/shapes/header6-shape1.svg" alt />
+                    <img src="/assets/img/bg/graphic-design.gif" alt />
                   </div>
                   <div
-                    className="home6-header-img4 aniamtion-key-1 aos-init aos-animate"
+                    className="home6-header-img4 aniamtion-key-1 aos-init aos-animate digital-seo"
                     data-aos="zoom-out"
                     data-aos-duration={1200}
                   >
-                    <img src="/assets/img/shapes/header6-shape2.svg" alt />
+                    <img src="/assets/img/bg/digital_seo.gif" alt />
                   </div>
                 </div>
               </div>

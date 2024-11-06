@@ -206,7 +206,6 @@
 .home4-single-counter {
   display: flex;
   align-items: center;
-  margin-top: 20px;
 }
 .home4-single-img {
   margin-right: 20px;
@@ -771,7 +770,7 @@ background: var(--accent-primary, #026939);
 
 .home6-header-img1 {
   position: absolute;
-  bottom: 100px;
+  bottom: 200px;
   left: 70px;
 
 }

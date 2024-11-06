@@ -11,8 +11,8 @@ export default function HowItWork() {
                             <div className="hadding5">
                                 <span className="span font-f-5 font-18 line-height-18 weight-400" data-aos="fade-up" data-aos-duration={800}>How it works</span>
                                 <div className="space10" />
-                                <h1 className="font-f-6 font-30 font-lg-42 weight-500 line-height-38 line-height-lg-48 color4" data-aos="fade-up" data-aos-duration={1000}>We give you access to the best and most
-                                    competitive insurance products</h1>
+                                <h1 className="font-f-6 font-30 font-lg-42 weight-500 line-height-38 line-height-lg-48 color4" data-aos="fade-up" data-aos-duration={1000}>We give you access to the best and modern
+                                    competitive projects</h1>
                                 <div className="space10" />
                             </div>
                         </div>
